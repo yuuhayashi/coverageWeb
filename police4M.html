@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>OpenStreetMap coverage (amenity=police)</title>
+ <link rel="stylesheet" href="lib/surveyor.css">
+ <link rel="stylesheet" href="lib/ol-4.5.0/ol.css"/>
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <H1>OpenStreetMap coverage (交番の網羅率)</H1>
+        <div id="map" style="height: 720px; width: 98%;"></div>
+        <div id="timestamp2"></div><br/>
+        <div id="source"></div>
+    </div>
+</div>
+<script src="lib/ol-4.5.0/ol.js"></script>
+<script src="lib/Leaflet.MapboxVectorTile.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="coverage.js"></script>
+<script>
+    var tileDate = './GML_POLICE/pbfDate.json';
+    $.getJSON(tileDate, function(data) {
+        $("#timestamp2").append("<p>" + data.date + " での状況<br/>   赤: 未入力, オレンジ: とりあえず入力されている, 蛍光グリーン: 入力済み</p>") ;
+    });
+</script>
+<script src="police4M.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>OpenStreetMap coverage (amenity=fuel)</title>
+ <link rel="stylesheet" href="lib/surveyor.css">
+ <link rel="stylesheet" href="lib/leaflet-0.7.3/leaflet.css"/>
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <H1>OpenStreetMap coverage (燃料給油所を指標にした網羅率)</H1>
+        <div id="map" style="height: 720px; width: 98%;"></div>
+        <div id="timestamp2"></div><br/>
+        <div id="source"></div>
+        <ul>
+            <li><img src="img/92px-CARTO-logo.svg.png" width="85" height="32"/> （旧版）2017-10-08時点での状況は<a href="https://hayashi.carto.com/builder/ab6e97ae-f730-4de3-9ef1-a4c0d751cc05/embed">CARTO</a>にて参照可能です</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Mapillary_logo.svg" width="32" height="32"/> 「<a href="fuel3.html">Mappillary+</a>」版も有ります</li>
+        </ul>
+        <hr/>
+    </div>
+
+    <div id="inner">
+        <div id="mainWrap">
+            <p>以下のデータは月に２〜３回程度の頻度で更新を行う予定です。</p>
+            <p class="middle"><a href='http://surveyor.mydns.jp/owncloud/s/fx3xjafbd66c1us'><img src="img/logo_postgis.jpg" alt="PostGISの使い方" class="PostGIS"/></a>　<img src="img/qgis-logo_anita02.png" alt="QGISでの表示" id="QGISlogo"/></p>
+            <p>'QGIS’を使ってPostGISデータベースにあるデータを直接見ることで、GSの入力状況(入力済み／未入力)を詳細に知ることができます。マッピング計画の参考にしてください。</p>
+            <img src="QGIS_fuel_20170924.png" alt="QGISでの表示" class="qgisimage"/><br/>
+            <ul>
+                <li>QGISの設定定義ファイル[<a href='/gitbucket/yuu/osmCoverageBin/raw/master/GML_FUEL/fuel_All.qgs'>fuel_All.qgs</a>]をダウンロード可能です。</li>
+                <li>「<a href='http://surveyor.mydns.jp/owncloud/s/fx3xjafbd66c1us'>QGISの使い方</a>」説明書をダウンロード可能です。</li>
+            </ul>
+            <br/>
+            <hr/>
+            <br/>
+
+            <p>国土数値情報の燃料給油所位置を中心とする、200m四方の矩形領域に存在するOSMのamenity=fuelノードの評価点の合計を数える。<br/>
+                <br/>
+                対象ノード；<br/>
+                  node & area: amenity = fuel<br/>
+                  node & area: disused:amenity = fuel<br/>
+                  node & area: abandoned:amenity = fuel<br/>
+                  node & area: demolished:amenity = fuel<br/>
+                  node & area: historic:amenity = fuel<br/>
+                  node & area: was:amenity = fuel<br/>
+                  node & area: removed:amenity = fuel<br/>
+                  node & area: no:amenity = fuel<br/>
+                <br/>
+                評価点；<br/>
+                  blandがない　ーー＞　１ポイント<br/>
+                  fixmeがある　ーー＞　１ポイント<br/>
+                  blandがある　ーー＞　50ポイント<br/>
+                  'disused:amenity=fuel'　　ーー＞　50ポイント<br/>
+                  'abandoned:amenity=fuel'　ーー＞　50ポイント<br/>
+                  'demolished:amenity=fuel' ーー＞　50ポイント<br/>
+                  'historic:amenity=fuel'　 ーー＞　50ポイント<br/>
+                  'was:amenity=fuel'　　　　ーー＞　50ポイント<br/>
+                  'removed:amenity=fuel'　　ーー＞　50ポイント<br/>
+                  'no:amenity=fuel'　　　　 ーー＞　50ポイント<br/>
+                <br/>
+                レベル分け：<br/>
+                  評価点の合計値をもとに以下に色分けしています。<br/>
+                    ０ポイント　→　赤 (未入力）<br/>
+                    １ポイント以上　→ オレンジ (一次入力)<br/>
+                    50ポイント以上　→　青 (入力済) <br/>
+            </p>
+            <p>DEVELOP: <a href="http://surveyor.mydns.jp/gitbucket/yuu/osmCoverage/wiki">SRC</a>も公開. 自由にお使いください</p>
+        </div>
+
+        <div id="sideWrap">
+            <div id="timestamp"></div>
+            <table>
+                <caption>マッピングカバー率 都道府県別</caption>
+                <thead>
+                    <tr>
+                        <th>code</th>
+                        <th>都道府県</th>
+                        <th>標本数</th>
+                        <th>入力数</th>
+                        <th>カバー率(%)</th>
+                    </tr>
+                </thead>
+                <tbody id="data_list"></tbody>
+            </table>
+        </div>
+        <div class="clear"><hr /></div>
+    </div>
+</div>
+<script src="lib/leaflet-0.7.3/leaflet-src.js"></script>
+<script src="lib/Leaflet.MapboxVectorTile.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+    var jsonurl = 'GML_FUEL/coverage.fuel.json';
+    $.getJSON(jsonurl, function(data) {
+        var count = 0;
+        $("#source").append("国土交通省国土政策局「" + data.sourcedata + "」をもとにhayashiが編集・加工したものです。") ;
+        $(data.coverage).each(function() {
+            $("#data_list").append("<tr id=\"data_id" + count + "\"></tr>") ;
+            $("#data_list #data_id" + count).append("<td class='code'>" + this.code + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='name'>" + this.name + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='denominator'>" + this.denominator + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='molecule'>" + this.molecule + "</td>");
+            $("#data_list #data_id" + count).append("<td class='par'>" + this.par + "</td>") ;
+            count++ ;
+        });
+    });
+    
+    var tileDate = 'GML_FUEL/pbfDate.json';
+    $.getJSON(tileDate, function(data) {
+        $("#timestamp").append("<p>" + data.date + " 更新</p>") ;
+        $("#timestamp2").append("<p>上図は " + data.date + " での状況<br/>   赤: 未入力, オレンジ: とりあえず入力されている, 蛍光グリーン: 入力済み</p>") ;
+    });
+</script>
+<script src="fuel.js"></script>
+
+</body>
+</html>

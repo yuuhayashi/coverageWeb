@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>OpenStreetMap coverage (amenity=police)</title>
+ <link rel="stylesheet" href="lib/surveyor.css">
+ <link rel="stylesheet" href="lib/leaflet-0.7.3/leaflet.css"/>
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <H1>OpenStreetMap coverage (派出所の網羅率)</H1>
+        <div id="map" style="height: 720px; width: 98%;"></div>
+        <div id="timestamp2"></div><br/>
+        <div id="source"></div>
+        <ul>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Mapillary_logo.svg" width="32" height="32"/> 「<a href="police6M.html">Mappillary+</a>」版も有ります</li>
+        </ul>
+        <hr/>
+    </div>
+
+    <div id="inner">
+        <div id="mainWrap">
+            <p>このデータは月に２〜３回程度の頻度で更新を行う予定です。</p>
+            <br/>
+            <hr/>
+            <br/>
+
+            <p>国土数値情報の駐在所位置を中心とする、200m四方の矩形領域に存在するOSMのamenity=policeノードの評価点の合計を数える。<br/>
+                <br/>
+                対象ノード；<br/>
+                  node & area: amenity = police<br/>
+                  node & area: disused:amenity = police<br/>
+                  node & area: abandoned:amenity = police<br/>
+                  node & area: demolished:amenity = police<br/>
+                  node & area: historic:amenity = police<br/>
+                  node & area: was:amenity = police<br/>
+                  node & area: removed:amenity = police<br/>
+                  node & area: no:amenity = police<br/>
+                <br/>
+                評価点；<br/>
+                  'amenity=police'　　　　　　→　50ポイント<br/>
+                  'disused:amenity=police'　　→　50ポイント<br/>
+                  'abandoned:amenity=police'　→　50ポイント<br/>
+                  'demolished:amenity=police' →　50ポイント<br/>
+                  'historic:amenity=police'　 →　50ポイント<br/>
+                  'was:amenity=police'　　　　→　50ポイント<br/>
+                  'removed:amenity=police'　　→　50ポイント<br/>
+                  'no:amenity=police'　　　　 →　50ポイント<br/>
+                <br/>
+                レベル分け：<br/>
+                  評価点の合計値をもとに以下に色分けしています。<br/>
+                    ０ポイント　→　赤 (未入力）<br/>
+                    50ポイント以上　→　青 (入力済) <br/>
+            </p>
+            <p>DEVELOP: <a href="http://surveyor.mydns.jp/gitbucket/yuu/osmCoverage/wiki">SRC</a>も公開. 自由にお使いください</p>
+        </div>
+
+        <div id="sideWrap">
+            <div id="timestamp"></div>
+            <table>
+                <caption>マッピングカバー率 都道府県別</caption>
+                <thead>
+                    <tr>
+                        <th>code</th>
+                        <th>都道府県</th>
+                        <th>標本数</th>
+                        <th>入力数</th>
+                        <th>カバー率(%)</th>
+                    </tr>
+                </thead>
+                <tbody id="data_list"></tbody>
+            </table>
+        </div>
+        <div class="clear"><hr /></div>
+    </div>
+</div>
+<script src="lib/leaflet-0.7.3/leaflet-src.js"></script>
+<script src="lib/Leaflet.MapboxVectorTile.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+    var jsonurl = './GML_POLICE/coverage.police6.json';
+    $.getJSON(jsonurl, function(data) {
+        var count = 0;
+        $("#source").append("国土交通省国土政策局「" + data.sourcedata + "」をもとにhayashiが編集・加工したものです。") ;
+        $(data.coverage).each(function() {
+            $("#data_list").append("<tr id=\"data_id" + count + "\"></tr>") ;
+            $("#data_list #data_id" + count).append("<td class='code'>" + this.code + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='name'>" + this.name + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='denominator'>" + this.denominator + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='molecule'>" + this.molecule + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='par'>" + this.par + "</td>") ;
+            count++ ;
+        });
+    });
+    
+    var tileDate = './GML_POLICE/pbfDate.json';
+    $.getJSON(tileDate, function(data) {
+        $("#timestamp").append("<p>" + data.date + " 更新</p>") ;
+        $("#timestamp2").append("<p>上図は " + data.date + " での状況<br/>   赤: 未入力, オレンジ: とりあえず入力されている, 蛍光グリーン: 入力済み</p>") ;
+    });
+</script>
+<script src="police6.js"></script>
+
+</body>
+</html>
