@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>OpenStreetMap coverage</title>
+        <link rel="stylesheet" href="lib/surveyor.css">
+    </head>
+    <body>
+        <h1>OpenStreetMap coverage</h1>
+        <hr/>
+        <div>
+            <H2><a href="busstop.html">OpenStreetMap coverage (バス停を指標にした網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報（バス停データ）」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="fuel.html">OpenStreetMap coverage (燃料給油所を指標にした網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報（燃料給油所データ;平成２７年版）」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="postoffice.html">OpenStreetMap coverage (国土数値情報郵便局データ を指標にした網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報（郵便局データ;平成２５年度版）」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="police2.html">OpenStreetMap coverage (国土数値情警察署データ を指標にした警察署の網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報 警察署データ（平成24年:2012）2:警察署」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="police4.html">OpenStreetMap coverage (国土数値情警察署データ を指標にした交番の網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報 警察署データ（平成24年:2012）4:交番」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="police5.html">OpenStreetMap coverage (国土数値情警察署データ を指標にした駐在所の網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報 警察署データ（平成24年:2012）5:駐在所」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <H2><a href="police6.html">OpenStreetMap coverage (国土数値情警察署データ を指標にした派出所の網羅率)</a></H2>
+            <p>国土交通省国土政策局「国土数値情報 警察署データ（平成24年:2012）6:派出所」をもとにhayashiが編集・加工したものです。</p>
+        </div>
+
+        <hr/>
+
+        <H1>RESTful Web Service</H1>
+        <div><a href="http://surveyor.mydns.jp/unMapped/api/application.wadl">application.wadl</a></div>
+
+        <div>http://surveyor.mydns.jp/unMapped/api/kmz/{type}?lat=NUMBER&lng=NUMBER&km=NUMBER</div>        
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/busstop" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="lat" value="35.4341254" />-<input type="text" name="lng" value="139.408969" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="busstop" value="busstop" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/fuel" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="lat" value="35.4341254" />-<input type="text" name="lng" value="139.408969" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="fuel" value="fuel" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/police" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="lat" value="35.4341254" />-<input type="text" name="lng" value="139.408969" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="police" value="police" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/postoffice" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="lat" value="35.4341254" />-<input type="text" name="lng" value="139.408969" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="postoffice" value="postoffice" />
+            </p>
+        </form>
+
+        <hr/>
+
+
+        <div>http://surveyor.mydns.jp/unMapped/api/kmz/{type}?latlng=LatLng(NUMBER,%20NUMBER)&amp;km=NUMBER</div>        
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/busstop" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="latlng" value="LatLng(35.4341254, 139.408969)" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="busstop" value="busstop" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/fuel" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="latlng" value="LatLng(35.4341254, 139.408969)" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="fuel" value="fuel" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/police" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="latlng" value="LatLng(35.4341254, 139.408969)" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="police" value="police" />
+            </p>
+        </form>
+
+        <form action="http://surveyor.mydns.jp/unMapped/api/kmz/postoffice" method="get">
+            <p>
+                latitude-longitude: <input type="text" name="latlng" value="LatLng(35.4341254, 139.408969)" /> 
+                r: <input type="radio" name="km" value="1"  checked="checked" />1.0km <input type="radio" name="km" value="3" />3.0km <input type="radio" name="km" value="5.0" />5.0km <input type="radio" name="km" value="10.0" />10.0km <input type="radio" name="km" value="20.0" />20.0km
+                <input type="submit" name="postoffice" value="postoffice" />
+            </p>
+        </form>
+
+        <hr/>
+
+        <div>
+            このリポジトリ内のデータは、国土交通省国土政策局「[国土数値情報](http://nlftp.mlit.go.jp/ksj/)」をもとにhayashiが編集・加工したものです。 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">クリエイティブ・コモンズ 表示 - 非営利 4.0 国際 ライセンス</a>の下に提供されています。
+        </div>
+
+        <hr/>
+
+        <div>
+            <p>[<a href="https://yuuhayashi.github.io/coverageWeb">コピーサイト</a>] (GitHub Pages)</p>
+            <p>[<a href="https://yuuhayashi.github.io/coverageWeb/README.md">README</a>] - [<a href="https://github.com/yuuhayashi/coverageWeb/wiki">Wiki</a>] (GitHub)</p>
+            <br/>
+            <p>2018-08-11 SoTM japan 2018 での発表資料 「日本の
+                POI
+                別編集状況と対策<a href="https://yuuhayashi.github.io/coverageWeb/SoTMjp20180810.pdf">PDF file</a>」</p>
+        </div>
+
+    </body>
+</html>

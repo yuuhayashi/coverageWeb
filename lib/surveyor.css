@@ -1,0 +1,66 @@
+#wrap {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}  
+#inner { 
+    margin: 0 4px;
+}
+#mainWrap { width: 70%; float: right; }
+#sideWrap { width: 25%; float: left; }
+.clear { clear: both; }
+.clear hr { display: none; }
+
+img.qgisimage {
+    width: 70%;
+    height: 70%;
+}
+img#QGISlogo {
+    width: 50%;
+    height: 50%;
+}
+
+p.middle {
+    vertical-align: middle;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.carto {
+  padding-left: 40px;
+}
+
+table {
+    margin: 20px 0 50px;
+    border-top: 1px solid #663300;
+    border-left: 1px solid #663300;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #ffffff;
+    empty-cells: show;
+}
+
+table caption {
+    caption-side: top;
+    text-decoration: underline;
+}
+
+table tr th, table tr td {
+    font-size: 12px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 7px;
+}
+
+table tr th {
+    background: #E6EAFF;
+    font-size: 11px;
+}
+
+table tr th.name,
+table tr td.name{width: 200px}
+
+table tr th.denominator,
+table tr td.denominator{text-align: right}

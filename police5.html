@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>OpenStreetMap coverage (amenity=police)</title>
+ <link rel="stylesheet" href="lib/surveyor.css">
+ <link rel="stylesheet" href="lib/leaflet-0.7.3/leaflet.css"/>
+ <link rel="stylesheet" href="lib/Leaflet.MapCenterCoord/L.Control.MapCenterCoord.css" />
+ <link rel="stylesheet" href="lib/Leaflet.contextmenu/leaflet.contextmenu.min.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <H1>OpenStreetMap coverage (駐在所の網羅率)</H1>
+        <div id="map" style="height: 720px; width: 98%;"></div>
+        <p><span style="color:red">●</span>:未入力, <span style="color:gold">●</span>:とりあえず入力済み, <span style="color:lime">●</span>:入力済み</p>
+        <ul>
+            <li><div id="timestamp"></div></li>
+            <li><div id="source"></div></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Mapillary_logo.svg" width="16" height="16"/> 「<a href="police5M.html">Mappillary+</a>」版も有ります</li>
+        </ul>
+        <hr/>
+    </div>
+
+    <div id="inner">
+        <div id="mainWrap">
+            <p>このデータは月に２〜３回程度の頻度で更新を行う予定です。</p>
+            <br/>
+            <hr/>
+            <br/>
+
+            <p>国土数値情報の駐在所位置を中心とする、200m四方の矩形領域に存在するOSMのamenity=policeノードの評価点の合計を数える。<br/>
+                <br/>
+                対象ノード；<br/>
+                  node & area: amenity = police<br/>
+                  node & area: disused:amenity = police<br/>
+                  node & area: abandoned:amenity = police<br/>
+                  node & area: demolished:amenity = police<br/>
+                  node & area: historic:amenity = police<br/>
+                  node & area: was:amenity = police<br/>
+                  node & area: removed:amenity = police<br/>
+                  node & area: no:amenity = police<br/>
+                <br/>
+                評価点；<br/>
+                  'amenity=police'　　　　　　→　50ポイント<br/>
+                  'disused:amenity=police'　　→　50ポイント<br/>
+                  'abandoned:amenity=police'　→　50ポイント<br/>
+                  'demolished:amenity=police' →　50ポイント<br/>
+                  'historic:amenity=police'　 →　50ポイント<br/>
+                  'was:amenity=police'　　　　→　50ポイント<br/>
+                  'removed:amenity=police'　　→　50ポイント<br/>
+                  'no:amenity=police'　　　　 →　50ポイント<br/>
+                <br/>
+                レベル分け：<br/>
+                  評価点の合計値をもとに以下に色分けしています。<br/>
+                    ０ポイント　→　赤 (未入力）<br/>
+                    50ポイント以上　→　青 (入力済) <br/>
+            </p>
+            <p>DEVELOP: <a href="http://surveyor.mydns.jp/gitbucket/yuu/osmCoverage/wiki">SRC</a>も公開. 自由にお使いください</p>
+
+            <hr/>
+
+            このリポジトリ内のデータは、国土交通省国土政策局「[国土数値情報](http://nlftp.mlit.go.jp/ksj/)」をもとにhayashiが編集・加工したものです。 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">クリエイティブ・コモンズ 表示 - 非営利 4.0 国際 ライセンス</a>の下に提供されています。
+        </div>
+
+        <div id="sideWrap">
+            <div id="timestamp"></div>
+            <table>
+                <caption>マッピングカバー率 都道府県別</caption>
+                <thead>
+                    <tr>
+                        <th>code</th>
+                        <th>都道府県</th>
+                        <th>標本数</th>
+                        <th>入力数</th>
+                        <th>カバー率(%)</th>
+                    </tr>
+                </thead>
+                <tbody id="data_list"></tbody>
+            </table>
+        </div>
+        <div class="clear"><hr /></div>
+    </div>
+</div>
+<script src="lib/leaflet-0.7.3/leaflet-src.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="lib/Leaflet.MapCenterCoord/L.Control.MapCenterCoord.js"></script>
+<script src="lib/Leaflet.contextmenu/leaflet.contextmenu.min.js"></script>
+<script>
+    var jsonurl = 'https://yuuhayashi.github.io/coverageWeb/GML_POLICE/coverage.police5.json';
+    $.getJSON(jsonurl, function(data) {
+        var count = 0;
+        $("#source").append("国土交通省国土政策局「" + data.sourcedata + "」をもとにhayashiが編集・加工したものです。") ;
+        $(data.coverage).each(function() {
+            $("#data_list").append("<tr id=\"data_id" + count + "\"></tr>") ;
+            $("#data_list #data_id" + count).append("<td class='code'>" + this.code + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='name'>" + this.name + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='denominator'>" + this.denominator + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='molecule'>" + this.molecule + "</td>") ;
+            $("#data_list #data_id" + count).append("<td class='par'>" + this.par + "</td>") ;
+            count++ ;
+        });
+    });
+    
+    var tileDate = 'https://yuuhayashi.github.io/coverageWeb/GML_POLICE/pbfDate.json';
+    $.getJSON(tileDate, function(data) {
+        $("#timestamp").append("更新:"+ data.date);
+    });
+</script>
+<script src="police5.js"></script>
+
+</body>
+</html>

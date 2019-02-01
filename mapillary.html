@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../surveyor.css">
+    <link rel="stylesheet" href="../lib/ol-4.5.0/ol.css"/>
+    <style>
+      .map {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script src="../lib/ol-4.5.0/ol.js"></script>
+    <title>Mapillary</title>
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <div class="map" id="map" style="height: 720px; width: 98%;"></div>
+    </div>
+    <div id="info"></div>
+</div>
+<script>
+
+    var strokestyle = new ol.style.Style({
+        stroke: new ol.style.Stroke({
+            color: 'rgba(53, 175, 109,0.7)',
+            width:  4
+        })
+    });
+
+    const mapillary = new ol.layer.VectorTile({
+        source: new ol.source.VectorTile({
+            attributions: '© Mapillary',
+            format: new ol.format.MVT(),
+            tileGrid: ol.tilegrid.createXYZ({maxZoom: 22}),
+            tilePixelRatio: 16,
+            opacity: 0.7,
+            url: 'https://d25uarhxywzl1j.cloudfront.net/v0.1/{z}/{x}/{y}.mvt'
+        }),
+        title: "Mapillary",
+        visible: true,
+        style: strokestyle
+    });
+    
+    // Open Street Map Layer
+    var osmLayer = new ol.layer.Tile({
+        source: new ol.source.OSM()
+    });
+
+    const view = new ol.View({
+        center: ol.proj.fromLonLat([140.6,36.5]),
+        zoom: 10
+    });
+
+    const map = new ol.Map({
+        target: "map",
+        controls: ol.control.defaults().extend([new ol.control.ScaleLine()]),
+        view: view,
+        layers: [osmLayer, mapillary]
+    });
+
+</script>
+
+
+</body></html>
