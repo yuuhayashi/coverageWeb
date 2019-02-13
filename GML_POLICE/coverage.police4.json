@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-01-28",
+ "timestamp": "2019-02-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5495,
-   "par": 86.81
+   "molecule": 5497,
+   "par": 86.84
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 45,
-   "molecule": 18,
-   "par": 40.00
+   "molecule": 19,
+   "par": 42.22
   }
   ,  {
    "code": 3,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 88,
-   "molecule": 58,
-   "par": 65.91
+   "molecule": 59,
+   "par": 67.05
   }
   ,  {
    "code": 5,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 115,
-   "molecule": 29,
-   "par": 25.22
+   "molecule": 30,
+   "par": 26.09
   }
   ,  {
    "code": 16,
@@ -167,8 +167,8 @@
    "code": 23,
    "name": "愛知県",
    "denominator": 396,
-   "molecule": 361,
-   "par": 91.16
+   "molecule": 360,
+   "par": 90.91
   }
   ,  {
    "code": 24,
