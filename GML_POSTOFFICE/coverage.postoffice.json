@@ -1,12 +1,12 @@
 {
- "timestamp": "2019-02-04",
+ "timestamp": "2019-02-12",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 19890,
+   "molecule": 19891,
    "par": 81.10
   }
   ,  {
@@ -174,8 +174,8 @@
    "code": 24,
    "name": "三重県",
    "denominator": 467,
-   "molecule": 449,
-   "par": 96.15
+   "molecule": 450,
+   "par": 96.36
   }
   ,  {
    "code": 25,
