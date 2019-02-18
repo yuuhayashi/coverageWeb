@@ -1,20 +1,20 @@
 {
- "timestamp": "2019-02-12",
+ "timestamp": "2019-02-15",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 4959,
-   "par": 73.85
+   "molecule": 4960,
+   "par": 73.86
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 428,
-   "molecule": 82,
-   "par": 19.16
+   "molecule": 83,
+   "par": 19.39
   }
   ,  {
    "code": 2,

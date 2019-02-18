@@ -1,27 +1,27 @@
 {
- "timestamp": "2019-02-12",
+ "timestamp": "2019-02-15",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 46482,
+   "molecule": 46488,
    "par": 18.24
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 13752,
-   "molecule": 2634,
-   "par": 19.15
+   "molecule": 2636,
+   "par": 19.17
   }
   ,  {
    "code": 2,
    "name": "青森県",
    "denominator": 4555,
-   "molecule": 518,
-   "par": 11.37
+   "molecule": 521,
+   "par": 11.44
   }
   ,  {
    "code": 3,
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1733,
-   "par": 17.25
+   "molecule": 1734,
+   "par": 17.26
   }
   ,  {
    "code": 13,
