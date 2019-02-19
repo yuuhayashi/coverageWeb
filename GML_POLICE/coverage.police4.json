@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-02-15",
+ "timestamp": "2019-02-18",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5498,
-   "par": 86.86
+   "molecule": 5499,
+   "par": 86.87
   }
   ,  {
    "code": 1,
@@ -230,8 +230,8 @@
    "code": 32,
    "name": "島根県",
    "denominator": 26,
-   "molecule": 18,
-   "par": 69.23
+   "molecule": 19,
+   "par": 73.08
   }
   ,  {
    "code": 33,
