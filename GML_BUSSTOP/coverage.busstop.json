@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-02-18",
+ "timestamp": "2019-02-25",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 46533,
-   "par": 18.26
+   "molecule": 46644,
+   "par": 18.30
   }
   ,  {
    "code": 1,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 5501,
-   "molecule": 502,
-   "par": 9.13
+   "molecule": 503,
+   "par": 9.14
   }
   ,  {
    "code": 5,
@@ -76,8 +76,8 @@
    "code": 10,
    "name": "群馬県",
    "denominator": 4952,
-   "molecule": 222,
-   "par": 4.48
+   "molecule": 223,
+   "par": 4.50
   }
   ,  {
    "code": 11,
@@ -90,15 +90,15 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1738,
-   "par": 17.30
+   "molecule": 1743,
+   "par": 17.35
   }
   ,  {
    "code": 13,
    "name": "東京都",
    "denominator": 9446,
-   "molecule": 6410,
-   "par": 67.86
+   "molecule": 6412,
+   "par": 67.88
   }
   ,  {
    "code": 14,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 6495,
-   "molecule": 767,
-   "par": 11.81
+   "molecule": 814,
+   "par": 12.53
   }
   ,  {
    "code": 16,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3172,
-   "par": 38.19
+   "molecule": 3185,
+   "par": 38.35
   }
   ,  {
    "code": 23,
@@ -195,15 +195,15 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 5844,
-   "molecule": 2212,
-   "par": 37.85
+   "molecule": 2216,
+   "par": 37.92
   }
   ,  {
    "code": 28,
    "name": "兵庫県",
    "denominator": 8863,
-   "molecule": 2582,
-   "par": 29.13
+   "molecule": 2596,
+   "par": 29.29
   }
   ,  {
    "code": 29,
@@ -265,8 +265,8 @@
    "code": 37,
    "name": "香川県",
    "denominator": 1762,
-   "molecule": 385,
-   "par": 21.85
+   "molecule": 400,
+   "par": 22.70
   }
   ,  {
    "code": 38,
@@ -300,8 +300,8 @@
    "code": 42,
    "name": "長崎県",
    "denominator": 4851,
-   "molecule": 150,
-   "par": 3.09
+   "molecule": 159,
+   "par": 3.28
   }
   ,  {
    "code": 43,

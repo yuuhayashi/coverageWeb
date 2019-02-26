@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-02-18",
+ "timestamp": "2019-02-25",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5499,
-   "par": 86.87
+   "molecule": 5501,
+   "par": 86.90
   }
   ,  {
    "code": 1,
@@ -167,8 +167,8 @@
    "code": 23,
    "name": "愛知県",
    "denominator": 396,
-   "molecule": 360,
-   "par": 90.91
+   "molecule": 361,
+   "par": 91.16
   }
   ,  {
    "code": 24,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 426,
-   "molecule": 413,
-   "par": 96.95
+   "molecule": 415,
+   "par": 97.42
   }
   ,  {
    "code": 29,
@@ -265,8 +265,8 @@
    "code": 37,
    "name": "香川県",
    "denominator": 40,
-   "molecule": 38,
-   "par": 95.00
+   "molecule": 37,
+   "par": 92.50
   }
   ,  {
    "code": 38,
