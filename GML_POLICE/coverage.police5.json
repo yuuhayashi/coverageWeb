@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-02-25",
+ "timestamp": "2019-03-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 4961,
-   "par": 73.88
+   "molecule": 4962,
+   "par": 73.89
   }
   ,  {
    "code": 1,
@@ -265,8 +265,8 @@
    "code": 37,
    "name": "香川県",
    "denominator": 105,
-   "molecule": 101,
-   "par": 96.19
+   "molecule": 102,
+   "par": 97.14
   }
   ,  {
    "code": 38,

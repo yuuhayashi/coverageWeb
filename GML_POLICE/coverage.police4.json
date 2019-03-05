@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-02-25",
+ "timestamp": "2019-03-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5501,
-   "par": 86.90
+   "molecule": 5502,
+   "par": 86.92
   }
   ,  {
    "code": 1,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 830,
-   "molecule": 806,
-   "par": 97.11
+   "molecule": 807,
+   "par": 97.23
   }
   ,  {
    "code": 14,
