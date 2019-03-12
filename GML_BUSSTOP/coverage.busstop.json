@@ -1,20 +1,20 @@
 {
- "timestamp": "2019-03-04",
+ "timestamp": "2019-03-11",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 46710,
-   "par": 18.33
+   "molecule": 46852,
+   "par": 18.38
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 13752,
-   "molecule": 2640,
-   "par": 19.20
+   "molecule": 2707,
+   "par": 19.68
   }
   ,  {
    "code": 2,
@@ -83,29 +83,29 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 9097,
-   "molecule": 1176,
-   "par": 12.93
+   "molecule": 1177,
+   "par": 12.94
   }
   ,  {
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1751,
-   "par": 17.43
+   "molecule": 1756,
+   "par": 17.48
   }
   ,  {
    "code": 13,
    "name": "東京都",
    "denominator": 9446,
-   "molecule": 6415,
-   "par": 67.91
+   "molecule": 6436,
+   "par": 68.13
   }
   ,  {
    "code": 14,
    "name": "神奈川県",
    "denominator": 8466,
-   "molecule": 6204,
-   "par": 73.28
+   "molecule": 6232,
+   "par": 73.61
   }
   ,  {
    "code": 15,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 8821,
-   "molecule": 455,
-   "par": 5.16
+   "molecule": 463,
+   "par": 5.25
   }
   ,  {
    "code": 21,
@@ -160,15 +160,15 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3189,
-   "par": 38.39
+   "molecule": 3195,
+   "par": 38.47
   }
   ,  {
    "code": 23,
    "name": "愛知県",
    "denominator": 8064,
-   "molecule": 1127,
-   "par": 13.98
+   "molecule": 1128,
+   "par": 13.99
   }
   ,  {
    "code": 24,
@@ -181,15 +181,15 @@
    "code": 25,
    "name": "滋賀県",
    "denominator": 4508,
-   "molecule": 246,
-   "par": 5.46
+   "molecule": 247,
+   "par": 5.48
   }
   ,  {
    "code": 26,
    "name": "京都府",
    "denominator": 4120,
-   "molecule": 789,
-   "par": 19.15
+   "molecule": 790,
+   "par": 19.17
   }
   ,  {
    "code": 27,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 7733,
-   "molecule": 690,
-   "par": 8.92
+   "molecule": 693,
+   "par": 8.96
   }
   ,  {
    "code": 41,
