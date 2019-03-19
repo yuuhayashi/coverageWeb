@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-03-11",
+ "timestamp": "2019-03-18",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5502,
-   "par": 86.92
+   "molecule": 5505,
+   "par": 86.97
   }
   ,  {
    "code": 1,
@@ -48,8 +48,8 @@
    "code": 6,
    "name": "山形県",
    "denominator": 38,
-   "molecule": 22,
-   "par": 57.89
+   "molecule": 23,
+   "par": 60.53
   }
   ,  {
    "code": 7,
@@ -188,15 +188,15 @@
    "code": 26,
    "name": "京都府",
    "denominator": 191,
-   "molecule": 177,
-   "par": 92.67
+   "molecule": 178,
+   "par": 93.19
   }
   ,  {
    "code": 27,
    "name": "大阪府",
    "denominator": 600,
-   "molecule": 589,
-   "par": 98.17
+   "molecule": 590,
+   "par": 98.33
   }
   ,  {
    "code": 28,
