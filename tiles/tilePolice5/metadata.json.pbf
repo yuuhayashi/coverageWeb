@@ -1,6 +1,6 @@
 {
     "name": "police5.mbtiles", 
-    "generator": "tippecanoe v1.32.10", 
+    "generator": "tippecanoe v1.30.0", 
     "format": "pbf", 
     "description": "police5.mbtiles", 
     "json": "{\"vector_layers\": [ { \"id\": \"police5_map1\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"police5_map1\",\"count\": 4967,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [50],\"min\": 50,\"max\": 50},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 

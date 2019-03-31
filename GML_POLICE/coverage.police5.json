@@ -1,5 +1,5 @@
 {
- "timestamp": "2019-03-25",
+ "timestamp": "2019-03-29",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 158,
-   "molecule": 10,
-   "par": 6.33
+   "molecule": 11,
+   "par": 6.96
   }
   ,  {
    "code": 21,
@@ -293,8 +293,8 @@
    "code": 41,
    "name": "佐賀県",
    "denominator": 110,
-   "molecule": 106,
-   "par": 96.36
+   "molecule": 105,
+   "par": 95.45
   }
   ,  {
    "code": 42,
