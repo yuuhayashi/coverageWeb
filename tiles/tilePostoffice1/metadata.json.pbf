@@ -1,1 +1,13 @@
-{}
+{
+    "name": "postoffice1.mbtiles", 
+    "generator": "tippecanoe v1.30.0", 
+    "format": "pbf", 
+    "description": "postoffice1.mbtiles", 
+    "json": "{\"vector_layers\": [ { \"id\": \"postoffice_map1\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"postoffice_map1\",\"count\": 2,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [1],\"min\": 1,\"max\": 1},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 
+    "bounds": "141.882731,39.275455,143.162033,42.743776", 
+    "minzoom": "6", 
+    "version": "2", 
+    "maxzoom": "16", 
+    "type": "overlay", 
+    "center": "141.882731,39.276916,16"
+}
