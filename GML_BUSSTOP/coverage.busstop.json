@@ -6,7 +6,7 @@
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 47236,
+   "molecule": 47237,
    "par": 18.54
   }
   ,  {
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1765,
-   "par": 17.57
+   "molecule": 1766,
+   "par": 17.58
   }
   ,  {
    "code": 13,
