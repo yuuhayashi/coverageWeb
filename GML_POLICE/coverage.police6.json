@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-01",
+ "timestamp": "2019-04-08",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 98,
-   "par": 62.42
+   "molecule": 99,
+   "par": 63.06
   }
   ,  {
    "code": 1,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 2,
-   "molecule": 1,
-   "par": 50.00
+   "molecule": 2,
+   "par": 100.00
   }
   ,  {
    "code": 28,
