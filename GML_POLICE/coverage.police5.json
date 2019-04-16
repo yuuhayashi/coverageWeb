@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-08",
+ "timestamp": "2019-04-15",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 4967,
-   "par": 73.97
+   "molecule": 4966,
+   "par": 73.95
   }
   ,  {
    "code": 1,
@@ -139,8 +139,8 @@
    "code": 19,
    "name": "山梨県",
    "denominator": 127,
-   "molecule": 121,
-   "par": 95.28
+   "molecule": 120,
+   "par": 94.49
   }
   ,  {
    "code": 20,
