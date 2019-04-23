@@ -24,7 +24,6 @@
 {"gmlid":"n7196","idref":"","area":14}
 {"gmlid":"n7198","idref":"","area":14}
 {"gmlid":"n7206","idref":"","area":14}
-{"gmlid":"n7273","idref":"","area":14}
 {"gmlid":"n7287","idref":"","area":14}
 {"gmlid":"n7334","idref":"","area":14}
 {"gmlid":"n4439","idref":"","area":27}

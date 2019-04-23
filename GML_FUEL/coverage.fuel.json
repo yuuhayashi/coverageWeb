@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-15",
+ "timestamp": "2019-04-22",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 9750,
-   "par": 36.79
+   "molecule": 9766,
+   "par": 36.85
   }
   ,  {
    "code": 1,
@@ -48,15 +48,15 @@
    "code": 6,
    "name": "山形県",
    "denominator": 393,
-   "molecule": 262,
-   "par": 66.67
+   "molecule": 261,
+   "par": 66.41
   }
   ,  {
    "code": 7,
    "name": "福島県",
    "denominator": 623,
-   "molecule": 161,
-   "par": 25.84
+   "molecule": 162,
+   "par": 26.00
   }
   ,  {
    "code": 8,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 974,
-   "molecule": 688,
-   "par": 70.64
+   "molecule": 689,
+   "par": 70.74
   }
   ,  {
    "code": 14,
@@ -118,8 +118,8 @@
    "code": 16,
    "name": "富山県",
    "denominator": 357,
-   "molecule": 79,
-   "par": 22.13
+   "molecule": 89,
+   "par": 24.93
   }
   ,  {
    "code": 17,
@@ -153,15 +153,15 @@
    "code": 21,
    "name": "岐阜県",
    "denominator": 639,
-   "molecule": 113,
-   "par": 17.68
+   "molecule": 115,
+   "par": 18.00
   }
   ,  {
    "code": 22,
    "name": "静岡県",
    "denominator": 939,
-   "molecule": 650,
-   "par": 69.22
+   "molecule": 651,
+   "par": 69.33
   }
   ,  {
    "code": 23,
@@ -181,8 +181,8 @@
    "code": 25,
    "name": "滋賀県",
    "denominator": 294,
-   "molecule": 141,
-   "par": 47.96
+   "molecule": 140,
+   "par": 47.62
   }
   ,  {
    "code": 26,
@@ -230,8 +230,8 @@
    "code": 32,
    "name": "島根県",
    "denominator": 295,
-   "molecule": 37,
-   "par": 12.54
+   "molecule": 38,
+   "par": 12.88
   }
   ,  {
    "code": 33,
@@ -258,8 +258,8 @@
    "code": 36,
    "name": "徳島県",
    "denominator": 308,
-   "molecule": 131,
-   "par": 42.53
+   "molecule": 132,
+   "par": 42.86
   }
   ,  {
    "code": 37,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 792,
-   "molecule": 123,
-   "par": 15.53
+   "molecule": 124,
+   "par": 15.66
   }
   ,  {
    "code": 41,

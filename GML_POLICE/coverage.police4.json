@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-15",
+ "timestamp": "2019-04-22",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5515,
-   "par": 87.12
+   "molecule": 5520,
+   "par": 87.20
   }
   ,  {
    "code": 1,
@@ -111,15 +111,15 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 115,
-   "molecule": 30,
-   "par": 26.09
+   "molecule": 33,
+   "par": 28.70
   }
   ,  {
    "code": 16,
    "name": "富山県",
    "denominator": 54,
-   "molecule": 49,
-   "par": 90.74
+   "molecule": 51,
+   "par": 94.44
   }
   ,  {
    "code": 17,
