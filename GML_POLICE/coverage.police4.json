@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-22",
+ "timestamp": "2019-04-29",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5520,
-   "par": 87.20
+   "molecule": 5521,
+   "par": 87.22
   }
   ,  {
    "code": 1,
@@ -69,8 +69,8 @@
    "code": 9,
    "name": "栃木県",
    "denominator": 72,
-   "molecule": 48,
-   "par": 66.67
+   "molecule": 49,
+   "par": 68.06
   }
   ,  {
    "code": 10,

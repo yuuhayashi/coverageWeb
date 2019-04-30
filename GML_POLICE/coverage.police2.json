@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-04-22",
+ "timestamp": "2019-04-29",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1025,
-   "par": 87.23
+   "molecule": 1024,
+   "par": 87.15
   }
   ,  {
    "code": 1,
@@ -55,8 +55,8 @@
    "code": 7,
    "name": "福島県",
    "denominator": 22,
-   "molecule": 11,
-   "par": 50.00
+   "molecule": 10,
+   "par": 45.45
   }
   ,  {
    "code": 8,
