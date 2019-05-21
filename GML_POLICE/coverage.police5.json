@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-05-13",
+ "timestamp": "2019-05-20",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 4973,
-   "par": 74.06
+   "molecule": 4972,
+   "par": 74.04
   }
   ,  {
    "code": 1,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 151,
-   "molecule": 146,
-   "par": 96.69
+   "molecule": 145,
+   "par": 96.03
   }
   ,  {
    "code": 23,

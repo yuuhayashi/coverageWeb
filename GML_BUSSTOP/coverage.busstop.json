@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-05-13",
+ "timestamp": "2019-05-20",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 48006,
-   "par": 18.84
+   "molecule": 48054,
+   "par": 18.86
   }
   ,  {
    "code": 1,
@@ -83,36 +83,36 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 9097,
-   "molecule": 1198,
-   "par": 13.17
+   "molecule": 1199,
+   "par": 13.18
   }
   ,  {
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1783,
-   "par": 17.74
+   "molecule": 1787,
+   "par": 17.78
   }
   ,  {
    "code": 13,
    "name": "東京都",
    "denominator": 9446,
-   "molecule": 6518,
-   "par": 69.00
+   "molecule": 6519,
+   "par": 69.01
   }
   ,  {
    "code": 14,
    "name": "神奈川県",
    "denominator": 8466,
-   "molecule": 6287,
-   "par": 74.26
+   "molecule": 6288,
+   "par": 74.27
   }
   ,  {
    "code": 15,
    "name": "新潟県",
    "denominator": 6495,
-   "molecule": 841,
-   "par": 12.95
+   "molecule": 842,
+   "par": 12.96
   }
   ,  {
    "code": 16,
@@ -146,22 +146,22 @@
    "code": 20,
    "name": "長野県",
    "denominator": 8821,
-   "molecule": 520,
-   "par": 5.90
+   "molecule": 524,
+   "par": 5.94
   }
   ,  {
    "code": 21,
    "name": "岐阜県",
    "denominator": 5851,
-   "molecule": 522,
-   "par": 8.92
+   "molecule": 523,
+   "par": 8.94
   }
   ,  {
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3266,
-   "par": 39.32
+   "molecule": 3289,
+   "par": 39.60
   }
   ,  {
    "code": 23,
@@ -223,8 +223,8 @@
    "code": 31,
    "name": "鳥取県",
    "denominator": 2963,
-   "molecule": 373,
-   "par": 12.59
+   "molecule": 374,
+   "par": 12.62
   }
   ,  {
    "code": 32,
@@ -244,8 +244,8 @@
    "code": 34,
    "name": "広島県",
    "denominator": 7640,
-   "molecule": 1036,
-   "par": 13.56
+   "molecule": 1037,
+   "par": 13.57
   }
   ,  {
    "code": 35,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 7432,
-   "molecule": 332,
-   "par": 4.47
+   "molecule": 342,
+   "par": 4.60
   }
   ,  {
    "code": 47,

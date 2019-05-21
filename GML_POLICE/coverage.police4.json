@@ -1,5 +1,5 @@
 {
- "timestamp": "2019-05-13",
+ "timestamp": "2019-05-20",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
@@ -83,8 +83,8 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 250,
-   "molecule": 236,
-   "par": 94.40
+   "molecule": 235,
+   "par": 94.00
   }
   ,  {
    "code": 12,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 90,
-   "molecule": 40,
-   "par": 44.44
+   "molecule": 41,
+   "par": 45.56
   }
   ,  {
    "code": 21,
