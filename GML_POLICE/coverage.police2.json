@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-05-20",
+ "timestamp": "2019-05-27",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1025,
-   "par": 87.23
+   "molecule": 1023,
+   "par": 87.06
   }
   ,  {
    "code": 1,
@@ -153,8 +153,8 @@
    "code": 21,
    "name": "岐阜県",
    "denominator": 22,
-   "molecule": 22,
-   "par": 100.00
+   "molecule": 21,
+   "par": 95.45
   }
   ,  {
    "code": 22,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 48,
-   "molecule": 47,
-   "par": 97.92
+   "molecule": 46,
+   "par": 95.83
   }
   ,  {
    "code": 29,
