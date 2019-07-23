@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-07-15",
+ "timestamp": "2019-07-22",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 9960,
-   "par": 37.58
+   "molecule": 9985,
+   "par": 37.67
   }
   ,  {
    "code": 1,
@@ -90,22 +90,22 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 987,
-   "molecule": 359,
-   "par": 36.37
+   "molecule": 360,
+   "par": 36.47
   }
   ,  {
    "code": 13,
    "name": "東京都",
    "denominator": 974,
-   "molecule": 689,
-   "par": 70.74
+   "molecule": 691,
+   "par": 70.94
   }
   ,  {
    "code": 14,
    "name": "神奈川県",
    "denominator": 830,
-   "molecule": 827,
-   "par": 99.64
+   "molecule": 826,
+   "par": 99.52
   }
   ,  {
    "code": 15,
@@ -139,8 +139,8 @@
    "code": 19,
    "name": "山梨県",
    "denominator": 324,
-   "molecule": 200,
-   "par": 61.73
+   "molecule": 201,
+   "par": 62.04
   }
   ,  {
    "code": 20,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 939,
-   "molecule": 692,
-   "par": 73.70
+   "molecule": 697,
+   "par": 74.23
   }
   ,  {
    "code": 23,
@@ -188,8 +188,8 @@
    "code": 26,
    "name": "京都府",
    "denominator": 384,
-   "molecule": 234,
-   "par": 60.94
+   "molecule": 235,
+   "par": 61.20
   }
   ,  {
    "code": 27,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 931,
-   "molecule": 279,
-   "par": 29.97
+   "molecule": 280,
+   "par": 30.08
   }
   ,  {
    "code": 29,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 522,
-   "molecule": 93,
-   "par": 17.82
+   "molecule": 94,
+   "par": 18.01
   }
   ,  {
    "code": 34,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 792,
-   "molecule": 140,
-   "par": 17.68
+   "molecule": 144,
+   "par": 18.18
   }
   ,  {
    "code": 41,
@@ -314,8 +314,8 @@
    "code": 44,
    "name": "大分県",
    "denominator": 420,
-   "molecule": 45,
-   "par": 10.71
+   "molecule": 54,
+   "par": 12.86
   }
   ,  {
    "code": 45,
@@ -335,8 +335,8 @@
    "code": 47,
    "name": "沖縄県",
    "denominator": 223,
-   "molecule": 179,
-   "par": 80.27
+   "molecule": 180,
+   "par": 80.72
   }
  ]
 }
