@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-08-05",
+ "timestamp": "2019-08-15",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5532,
-   "par": 87.39
+   "molecule": 5535,
+   "par": 87.44
   }
   ,  {
    "code": 1,
@@ -27,8 +27,8 @@
    "code": 3,
    "name": "岩手県",
    "denominator": 39,
-   "molecule": 13,
-   "par": 33.33
+   "molecule": 18,
+   "par": 46.15
   }
   ,  {
    "code": 4,
@@ -174,8 +174,8 @@
    "code": 24,
    "name": "三重県",
    "denominator": 61,
-   "molecule": 53,
-   "par": 86.89
+   "molecule": 52,
+   "par": 85.25
   }
   ,  {
    "code": 25,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 600,
-   "molecule": 590,
-   "par": 98.33
+   "molecule": 589,
+   "par": 98.17
   }
   ,  {
    "code": 28,
