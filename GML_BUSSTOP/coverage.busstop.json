@@ -1,20 +1,20 @@
 {
- "timestamp": "2019-08-20",
+ "timestamp": "2019-08-26",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 48956,
-   "par": 19.21
+   "molecule": 49042,
+   "par": 19.24
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 13752,
-   "molecule": 2721,
-   "par": 19.79
+   "molecule": 2751,
+   "par": 20.00
   }
   ,  {
    "code": 2,
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 1923,
-   "par": 19.14
+   "molecule": 1928,
+   "par": 19.19
   }
   ,  {
    "code": 13,
@@ -125,8 +125,8 @@
    "code": 17,
    "name": "石川県",
    "denominator": 3437,
-   "molecule": 318,
-   "par": 9.25
+   "molecule": 339,
+   "par": 9.86
   }
   ,  {
    "code": 18,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 8821,
-   "molecule": 535,
-   "par": 6.07
+   "molecule": 536,
+   "par": 6.08
   }
   ,  {
    "code": 21,
@@ -167,8 +167,8 @@
    "code": 23,
    "name": "愛知県",
    "denominator": 8064,
-   "molecule": 1146,
-   "par": 14.21
+   "molecule": 1148,
+   "par": 14.24
   }
   ,  {
    "code": 24,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 5844,
-   "molecule": 2365,
-   "par": 40.47
+   "molecule": 2388,
+   "par": 40.86
   }
   ,  {
    "code": 28,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 7432,
-   "molecule": 351,
-   "par": 4.72
+   "molecule": 355,
+   "par": 4.78
   }
   ,  {
    "code": 47,
