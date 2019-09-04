@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-08-26",
+ "timestamp": "2019-09-03",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 4980,
-   "par": 74.16
+   "molecule": 4979,
+   "par": 74.15
   }
   ,  {
    "code": 1,
@@ -307,8 +307,8 @@
    "code": 43,
    "name": "熊本県",
    "denominator": 116,
-   "molecule": 105,
-   "par": 90.52
+   "molecule": 104,
+   "par": 89.66
   }
   ,  {
    "code": 44,
