@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-09-03",
+ "timestamp": "2019-09-10",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1023,
-   "par": 87.06
+   "molecule": 1022,
+   "par": 86.98
   }
   ,  {
    "code": 1,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 28,
-   "molecule": 25,
-   "par": 89.29
+   "molecule": 24,
+   "par": 85.71
   }
   ,  {
    "code": 47,
