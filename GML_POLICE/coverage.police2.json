@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-09-23",
+ "timestamp": "2019-09-30",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1022,
-   "par": 86.98
+   "molecule": 1023,
+   "par": 87.06
   }
   ,  {
    "code": 1,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 30,
-   "molecule": 15,
-   "par": 50.00
+   "molecule": 16,
+   "par": 53.33
   }
   ,  {
    "code": 16,
