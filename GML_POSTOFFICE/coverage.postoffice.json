@@ -1,20 +1,20 @@
 {
- "timestamp": "2019-09-30",
+ "timestamp": "2019-10-07",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20031,
-   "par": 81.67
+   "molecule": 20036,
+   "par": 81.69
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 1515,
-   "molecule": 638,
-   "par": 42.11
+   "molecule": 641,
+   "par": 42.31
   }
   ,  {
    "code": 2,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 456,
-   "molecule": 311,
-   "par": 68.20
+   "molecule": 312,
+   "par": 68.42
   }
   ,  {
    "code": 5,
@@ -69,8 +69,8 @@
    "code": 9,
    "name": "栃木県",
    "denominator": 359,
-   "molecule": 248,
-   "par": 69.08
+   "molecule": 249,
+   "par": 69.36
   }
   ,  {
    "code": 10,
