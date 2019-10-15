@@ -1,20 +1,20 @@
 {
- "timestamp": "2019-10-07",
+ "timestamp": "2019-10-04",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 50418,
-   "par": 19.78
+   "molecule": 50453,
+   "par": 19.80
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 13752,
-   "molecule": 2751,
-   "par": 20.00
+   "molecule": 2752,
+   "par": 20.01
   }
   ,  {
    "code": 2,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 5501,
-   "molecule": 756,
-   "par": 13.74
+   "molecule": 763,
+   "par": 13.87
   }
   ,  {
    "code": 5,
@@ -83,8 +83,8 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 9097,
-   "molecule": 1246,
-   "par": 13.70
+   "molecule": 1251,
+   "par": 13.75
   }
   ,  {
    "code": 12,
@@ -104,8 +104,8 @@
    "code": 14,
    "name": "神奈川県",
    "denominator": 8466,
-   "molecule": 6311,
-   "par": 74.55
+   "molecule": 6312,
+   "par": 74.56
   }
   ,  {
    "code": 15,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3418,
-   "par": 41.15
+   "molecule": 3428,
+   "par": 41.27
   }
   ,  {
    "code": 23,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 5844,
-   "molecule": 2438,
-   "par": 41.72
+   "molecule": 2441,
+   "par": 41.77
   }
   ,  {
    "code": 28,
@@ -216,8 +216,8 @@
    "code": 30,
    "name": "和歌山県",
    "denominator": 2587,
-   "molecule": 201,
-   "par": 7.77
+   "molecule": 203,
+   "par": 7.85
   }
   ,  {
    "code": 31,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 5349,
-   "molecule": 364,
-   "par": 6.81
+   "molecule": 368,
+   "par": 6.88
   }
   ,  {
    "code": 34,
@@ -279,8 +279,8 @@
    "code": 39,
    "name": "高知県",
    "denominator": 3858,
-   "molecule": 189,
-   "par": 4.90
+   "molecule": 190,
+   "par": 4.92
   }
   ,  {
    "code": 40,
@@ -321,8 +321,8 @@
    "code": 45,
    "name": "宮崎県",
    "denominator": 4099,
-   "molecule": 143,
-   "par": 3.49
+   "molecule": 144,
+   "par": 3.51
   }
   ,  {
    "code": 46,
