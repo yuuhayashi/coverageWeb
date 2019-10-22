@@ -1,5 +1,5 @@
 {
- "timestamp": "2019-10-14",
+ "timestamp": "2019-10-21",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 88,
-   "molecule": 63,
-   "par": 71.59
+   "molecule": 64,
+   "par": 72.73
   }
   ,  {
    "code": 5,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 222,
-   "molecule": 210,
-   "par": 94.59
+   "molecule": 209,
+   "par": 94.14
   }
   ,  {
    "code": 41,
