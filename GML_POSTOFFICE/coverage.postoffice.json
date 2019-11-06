@@ -1,41 +1,41 @@
 {
- "timestamp": "2019-10-28",
+ "timestamp": "2019-11-04",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20057,
-   "par": 81.78
+   "molecule": 20070,
+   "par": 81.83
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 1515,
-   "molecule": 648,
-   "par": 42.77
+   "molecule": 652,
+   "par": 43.04
   }
   ,  {
    "code": 2,
    "name": "青森県",
    "denominator": 362,
-   "molecule": 106,
-   "par": 29.28
+   "molecule": 107,
+   "par": 29.56
   }
   ,  {
    "code": 3,
    "name": "岩手県",
    "denominator": 433,
-   "molecule": 98,
-   "par": 22.63
+   "molecule": 101,
+   "par": 23.33
   }
   ,  {
    "code": 4,
    "name": "宮城県",
    "denominator": 456,
-   "molecule": 314,
-   "par": 68.86
+   "molecule": 315,
+   "par": 69.08
   }
   ,  {
    "code": 5,
@@ -48,15 +48,15 @@
    "code": 6,
    "name": "山形県",
    "denominator": 398,
-   "molecule": 190,
-   "par": 47.74
+   "molecule": 191,
+   "par": 47.99
   }
   ,  {
    "code": 7,
    "name": "福島県",
    "denominator": 548,
-   "molecule": 119,
-   "par": 21.72
+   "molecule": 120,
+   "par": 21.90
   }
   ,  {
    "code": 8,
@@ -69,8 +69,8 @@
    "code": 9,
    "name": "栃木県",
    "denominator": 359,
-   "molecule": 249,
-   "par": 69.36
+   "molecule": 250,
+   "par": 69.64
   }
   ,  {
    "code": 10,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 1512,
-   "molecule": 1473,
-   "par": 97.42
+   "molecule": 1472,
+   "par": 97.35
   }
   ,  {
    "code": 14,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 682,
-   "molecule": 127,
-   "par": 18.62
+   "molecule": 128,
+   "par": 18.77
   }
   ,  {
    "code": 16,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 1122,
-   "molecule": 1108,
-   "par": 98.75
+   "molecule": 1107,
+   "par": 98.66
   }
   ,  {
    "code": 28,
@@ -216,8 +216,8 @@
    "code": 30,
    "name": "和歌山県",
    "denominator": 317,
-   "molecule": 313,
-   "par": 98.74
+   "molecule": 314,
+   "par": 99.05
   }
   ,  {
    "code": 31,
@@ -321,8 +321,8 @@
    "code": 45,
    "name": "宮崎県",
    "denominator": 310,
-   "molecule": 298,
-   "par": 96.13
+   "molecule": 299,
+   "par": 96.45
   }
   ,  {
    "code": 46,

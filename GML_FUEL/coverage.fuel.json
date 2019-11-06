@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-10-28",
+ "timestamp": "2019-11-04",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 10311,
-   "par": 38.91
+   "molecule": 10325,
+   "par": 38.96
   }
   ,  {
    "code": 1,
@@ -20,22 +20,22 @@
    "code": 2,
    "name": "青森県",
    "denominator": 412,
-   "molecule": 139,
-   "par": 33.74
+   "molecule": 141,
+   "par": 34.22
   }
   ,  {
    "code": 3,
    "name": "岩手県",
    "denominator": 367,
-   "molecule": 78,
-   "par": 21.25
+   "molecule": 79,
+   "par": 21.53
   }
   ,  {
    "code": 4,
    "name": "宮城県",
    "denominator": 359,
-   "molecule": 262,
-   "par": 72.98
+   "molecule": 263,
+   "par": 73.26
   }
   ,  {
    "code": 5,
@@ -76,22 +76,22 @@
    "code": 10,
    "name": "群馬県",
    "denominator": 570,
-   "molecule": 192,
-   "par": 33.68
+   "molecule": 193,
+   "par": 33.86
   }
   ,  {
    "code": 11,
    "name": "埼玉県",
    "denominator": 962,
-   "molecule": 443,
-   "par": 46.05
+   "molecule": 445,
+   "par": 46.26
   }
   ,  {
    "code": 12,
    "name": "千葉県",
    "denominator": 987,
-   "molecule": 370,
-   "par": 37.49
+   "molecule": 372,
+   "par": 37.69
   }
   ,  {
    "code": 13,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 939,
-   "molecule": 715,
-   "par": 76.14
+   "molecule": 717,
+   "par": 76.36
   }
   ,  {
    "code": 23,
@@ -174,8 +174,8 @@
    "code": 24,
    "name": "三重県",
    "denominator": 505,
-   "molecule": 170,
-   "par": 33.66
+   "molecule": 169,
+   "par": 33.47
   }
   ,  {
    "code": 25,
@@ -216,15 +216,15 @@
    "code": 30,
    "name": "和歌山県",
    "denominator": 276,
-   "molecule": 80,
-   "par": 28.99
+   "molecule": 81,
+   "par": 29.35
   }
   ,  {
    "code": 31,
    "name": "鳥取県",
    "denominator": 201,
-   "molecule": 54,
-   "par": 26.87
+   "molecule": 55,
+   "par": 27.36
   }
   ,  {
    "code": 32,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 522,
-   "molecule": 109,
-   "par": 20.88
+   "molecule": 111,
+   "par": 21.26
   }
   ,  {
    "code": 34,

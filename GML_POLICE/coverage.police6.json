@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-10-28",
+ "timestamp": "2019-11-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 99,
-   "par": 63.06
+   "molecule": 100,
+   "par": 63.69
   }
   ,  {
    "code": 1,
@@ -314,8 +314,8 @@
    "code": 44,
    "name": "大分県",
    "denominator": 7,
-   "molecule": 2,
-   "par": 28.57
+   "molecule": 3,
+   "par": 42.86
   }
   ,  {
    "code": 45,

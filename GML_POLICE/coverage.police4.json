@@ -1,5 +1,5 @@
 {
- "timestamp": "2019-10-28",
+ "timestamp": "2019-11-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
@@ -13,8 +13,8 @@
    "code": 1,
    "name": "北海道",
    "denominator": 309,
-   "molecule": 145,
-   "par": 46.93
+   "molecule": 146,
+   "par": 47.25
   }
   ,  {
    "code": 2,
@@ -69,8 +69,8 @@
    "code": 9,
    "name": "栃木県",
    "denominator": 72,
-   "molecule": 51,
-   "par": 70.83
+   "molecule": 52,
+   "par": 72.22
   }
   ,  {
    "code": 10,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 600,
-   "molecule": 590,
-   "par": 98.33
+   "molecule": 589,
+   "par": 98.17
   }
   ,  {
    "code": 28,
@@ -216,8 +216,8 @@
    "code": 30,
    "name": "和歌山県",
    "denominator": 60,
-   "molecule": 55,
-   "par": 91.67
+   "molecule": 56,
+   "par": 93.33
   }
   ,  {
    "code": 31,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 71,
-   "molecule": 62,
-   "par": 87.32
+   "molecule": 60,
+   "par": 84.51
   }
   ,  {
    "code": 47,
