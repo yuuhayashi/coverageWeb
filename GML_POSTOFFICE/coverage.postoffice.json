@@ -1,55 +1,55 @@
 {
- "timestamp": "2019-11-04",
+ "timestamp": "2019-11-18",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20070,
-   "par": 81.83
+   "molecule": 20086,
+   "par": 81.90
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 1515,
-   "molecule": 652,
-   "par": 43.04
+   "molecule": 655,
+   "par": 43.23
   }
   ,  {
    "code": 2,
    "name": "青森県",
    "denominator": 362,
-   "molecule": 107,
-   "par": 29.56
+   "molecule": 109,
+   "par": 30.11
   }
   ,  {
    "code": 3,
    "name": "岩手県",
    "denominator": 433,
-   "molecule": 101,
-   "par": 23.33
+   "molecule": 102,
+   "par": 23.56
   }
   ,  {
    "code": 4,
    "name": "宮城県",
    "denominator": 456,
-   "molecule": 315,
-   "par": 69.08
+   "molecule": 318,
+   "par": 69.74
   }
   ,  {
    "code": 5,
    "name": "秋田県",
    "denominator": 401,
-   "molecule": 101,
-   "par": 25.19
+   "molecule": 103,
+   "par": 25.69
   }
   ,  {
    "code": 6,
    "name": "山形県",
    "denominator": 398,
-   "molecule": 191,
-   "par": 47.99
+   "molecule": 192,
+   "par": 48.24
   }
   ,  {
    "code": 7,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 1512,
-   "molecule": 1472,
-   "par": 97.35
+   "molecule": 1473,
+   "par": 97.42
   }
   ,  {
    "code": 14,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 682,
-   "molecule": 128,
-   "par": 18.77
+   "molecule": 131,
+   "par": 19.21
   }
   ,  {
    "code": 16,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 965,
-   "molecule": 947,
-   "par": 98.13
+   "molecule": 948,
+   "par": 98.24
   }
   ,  {
    "code": 29,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 534,
-   "molecule": 514,
-   "par": 96.25
+   "molecule": 513,
+   "par": 96.07
   }
   ,  {
    "code": 34,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 814,
-   "molecule": 793,
-   "par": 97.42
+   "molecule": 794,
+   "par": 97.54
   }
   ,  {
    "code": 41,
@@ -314,8 +314,8 @@
    "code": 44,
    "name": "大分県",
    "denominator": 402,
-   "molecule": 389,
-   "par": 96.77
+   "molecule": 388,
+   "par": 96.52
   }
   ,  {
    "code": 45,
