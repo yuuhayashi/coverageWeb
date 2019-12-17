@@ -30,11 +30,4 @@
 {"gmlid":"n7334","idref":"","area":14}
 {"gmlid":"n4439","idref":"","area":27}
 {"gmlid":"n4441","idref":"","area":27}
-{"gmlid":"n5941","idref":"","area":43}
-{"gmlid":"n5949","idref":"","area":43}
 {"gmlid":"n5965","idref":"","area":43}
-{"gmlid":"n5983","idref":"","area":43}
-{"gmlid":"n5984","idref":"","area":43}
-{"gmlid":"n5996","idref":"","area":43}
-{"gmlid":"n5997","idref":"","area":43}
-{"gmlid":"n5998","idref":"","area":43}
