@@ -1,13 +1,13 @@
 {
- "timestamp": "2019-12-16",
+ "timestamp": "2019-12-23",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 10480,
-   "par": 39.54
+   "molecule": 10490,
+   "par": 39.58
   }
   ,  {
    "code": 1,
@@ -41,8 +41,8 @@
    "code": 5,
    "name": "秋田県",
    "denominator": 352,
-   "molecule": 136,
-   "par": 38.64
+   "molecule": 137,
+   "par": 38.92
   }
   ,  {
    "code": 6,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 974,
-   "molecule": 701,
-   "par": 71.97
+   "molecule": 703,
+   "par": 72.18
   }
   ,  {
    "code": 14,
@@ -160,15 +160,15 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 939,
-   "molecule": 724,
-   "par": 77.10
+   "molecule": 725,
+   "par": 77.21
   }
   ,  {
    "code": 23,
    "name": "愛知県",
    "denominator": 1334,
-   "molecule": 574,
-   "par": 43.03
+   "molecule": 575,
+   "par": 43.10
   }
   ,  {
    "code": 24,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 931,
-   "molecule": 352,
-   "par": 37.81
+   "molecule": 354,
+   "par": 38.02
   }
   ,  {
    "code": 29,
@@ -314,8 +314,8 @@
    "code": 44,
    "name": "大分県",
    "denominator": 420,
-   "molecule": 63,
-   "par": 15.00
+   "molecule": 66,
+   "par": 15.71
   }
   ,  {
    "code": 45,
