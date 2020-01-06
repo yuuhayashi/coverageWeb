@@ -3,7 +3,7 @@
     "generator": "tippecanoe v1.32.10", 
     "format": "pbf", 
     "description": "postoffice2.mbtiles", 
-    "json": "{\"vector_layers\": [ { \"id\": \"postoffice_map2\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"postoffice_map2\",\"count\": 20121,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [50],\"min\": 50,\"max\": 50},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 
+    "json": "{\"vector_layers\": [ { \"id\": \"postoffice_map2\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"postoffice_map2\",\"count\": 20142,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [50],\"min\": 50,\"max\": 50},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 
     "bounds": "122.943320,24.061470,145.792488,45.516038", 
     "minzoom": "6", 
     "version": "2", 
