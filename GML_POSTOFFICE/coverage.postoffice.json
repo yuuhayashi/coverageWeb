@@ -6,7 +6,7 @@
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20146,
+   "molecule": 20145,
    "par": 82.14
   }
   ,  {
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 534,
-   "molecule": 513,
-   "par": 96.07
+   "molecule": 512,
+   "par": 95.88
   }
   ,  {
    "code": 34,
