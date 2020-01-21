@@ -1,5 +1,5 @@
 {
- "timestamp": "2020-01-13",
+ "timestamp": "2020-01-20",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 45,
-   "molecule": 22,
-   "par": 48.89
+   "molecule": 23,
+   "par": 51.11
   }
   ,  {
    "code": 3,
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 247,
-   "molecule": 233,
-   "par": 94.33
+   "molecule": 232,
+   "par": 93.93
   }
   ,  {
    "code": 13,

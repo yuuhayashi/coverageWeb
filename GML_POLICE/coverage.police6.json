@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-01-13",
+ "timestamp": "2020-01-20",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 100,
-   "par": 63.69
+   "molecule": 99,
+   "par": 63.06
   }
   ,  {
    "code": 1,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 2,
-   "molecule": 2,
-   "par": 100.00
+   "molecule": 1,
+   "par": 50.00
   }
   ,  {
    "code": 34,
