@@ -1,5 +1,5 @@
 {
- "timestamp": "2020-01-20",
+ "timestamp": "2020-01-27",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
@@ -13,15 +13,15 @@
    "code": 1,
    "name": "北海道",
    "denominator": 1515,
-   "molecule": 671,
-   "par": 44.29
+   "molecule": 672,
+   "par": 44.36
   }
   ,  {
    "code": 2,
    "name": "青森県",
    "denominator": 362,
-   "molecule": 116,
-   "par": 32.04
+   "molecule": 117,
+   "par": 32.32
   }
   ,  {
    "code": 3,
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 723,
-   "molecule": 712,
-   "par": 98.48
+   "molecule": 711,
+   "par": 98.34
   }
   ,  {
    "code": 13,
@@ -104,8 +104,8 @@
    "code": 14,
    "name": "神奈川県",
    "denominator": 767,
-   "molecule": 752,
-   "par": 98.04
+   "molecule": 751,
+   "par": 97.91
   }
   ,  {
    "code": 15,

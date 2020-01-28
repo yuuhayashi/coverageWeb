@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-01-20",
+ "timestamp": "2020-01-27",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5014,
-   "par": 74.67
+   "molecule": 5013,
+   "par": 74.65
   }
   ,  {
    "code": 1,
@@ -55,8 +55,8 @@
    "code": 7,
    "name": "福島県",
    "denominator": 165,
-   "molecule": 19,
-   "par": 11.52
+   "molecule": 18,
+   "par": 10.91
   }
   ,  {
    "code": 8,
