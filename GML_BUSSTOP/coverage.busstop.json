@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-01-27",
+ "timestamp": "2020-02-03",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 52845,
-   "par": 20.74
+   "molecule": 52905,
+   "par": 20.76
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 4555,
-   "molecule": 567,
-   "par": 12.45
+   "molecule": 578,
+   "par": 12.69
   }
   ,  {
    "code": 3,
@@ -55,8 +55,8 @@
    "code": 7,
    "name": "福島県",
    "denominator": 6239,
-   "molecule": 333,
-   "par": 5.34
+   "molecule": 334,
+   "par": 5.35
   }
   ,  {
    "code": 8,
@@ -83,29 +83,29 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 9097,
-   "molecule": 1360,
-   "par": 14.95
+   "molecule": 1361,
+   "par": 14.96
   }
   ,  {
    "code": 12,
    "name": "千葉県",
    "denominator": 10048,
-   "molecule": 2178,
-   "par": 21.68
+   "molecule": 2181,
+   "par": 21.71
   }
   ,  {
    "code": 13,
    "name": "東京都",
    "denominator": 9446,
-   "molecule": 6755,
-   "par": 71.51
+   "molecule": 6757,
+   "par": 71.53
   }
   ,  {
    "code": 14,
    "name": "神奈川県",
    "denominator": 8466,
-   "molecule": 6313,
-   "par": 74.57
+   "molecule": 6329,
+   "par": 74.76
   }
   ,  {
    "code": 15,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 8821,
-   "molecule": 612,
-   "par": 6.94
+   "molecule": 615,
+   "par": 6.97
   }
   ,  {
    "code": 21,
@@ -181,8 +181,8 @@
    "code": 25,
    "name": "滋賀県",
    "denominator": 4508,
-   "molecule": 280,
-   "par": 6.21
+   "molecule": 289,
+   "par": 6.41
   }
   ,  {
    "code": 26,
@@ -223,8 +223,8 @@
    "code": 31,
    "name": "鳥取県",
    "denominator": 2963,
-   "molecule": 437,
-   "par": 14.75
+   "molecule": 450,
+   "par": 15.19
   }
   ,  {
    "code": 32,
@@ -244,8 +244,8 @@
    "code": 34,
    "name": "広島県",
    "denominator": 7640,
-   "molecule": 1101,
-   "par": 14.41
+   "molecule": 1102,
+   "par": 14.42
   }
   ,  {
    "code": 35,

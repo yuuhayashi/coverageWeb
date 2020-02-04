@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-01-27",
+ "timestamp": "2020-02-03",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1027,
-   "par": 87.40
+   "molecule": 1028,
+   "par": 87.49
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 18,
-   "molecule": 6,
-   "par": 33.33
+   "molecule": 7,
+   "par": 38.89
   }
   ,  {
    "code": 3,
