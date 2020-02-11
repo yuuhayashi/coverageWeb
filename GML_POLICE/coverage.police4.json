@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-02-03",
+ "timestamp": "2020-02-10",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5557,
-   "par": 87.79
+   "molecule": 5556,
+   "par": 87.77
   }
   ,  {
    "code": 1,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 222,
-   "molecule": 207,
-   "par": 93.24
+   "molecule": 206,
+   "par": 92.79
   }
   ,  {
    "code": 41,
