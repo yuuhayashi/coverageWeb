@@ -1,5 +1,5 @@
 {
- "timestamp": "2020-02-10",
+ "timestamp": "2020-02-17",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
@@ -13,8 +13,8 @@
    "code": 1,
    "name": "北海道",
    "denominator": 309,
-   "molecule": 148,
-   "par": 47.90
+   "molecule": 149,
+   "par": 48.22
   }
   ,  {
    "code": 2,
@@ -209,8 +209,8 @@
    "code": 29,
    "name": "奈良県",
    "denominator": 69,
-   "molecule": 67,
-   "par": 97.10
+   "molecule": 66,
+   "par": 95.65
   }
   ,  {
    "code": 30,
