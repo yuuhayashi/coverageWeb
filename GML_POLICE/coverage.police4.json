@@ -6,8 +6,8 @@
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5556,
-   "par": 87.77
+   "molecule": 5559,
+   "par": 87.82
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 45,
-   "molecule": 24,
-   "par": 53.33
+   "molecule": 25,
+   "par": 55.56
   }
   ,  {
    "code": 3,
@@ -55,8 +55,8 @@
    "code": 7,
    "name": "福島県",
    "denominator": 50,
-   "molecule": 18,
-   "par": 36.00
+   "molecule": 19,
+   "par": 38.00
   }
   ,  {
    "code": 8,
@@ -111,8 +111,8 @@
    "code": 15,
    "name": "新潟県",
    "denominator": 115,
-   "molecule": 34,
-   "par": 29.57
+   "molecule": 35,
+   "par": 30.43
   }
   ,  {
    "code": 16,
