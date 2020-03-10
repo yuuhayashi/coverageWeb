@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-03-02",
+ "timestamp": "2020-03-09",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5020,
-   "par": 74.76
+   "molecule": 5019,
+   "par": 74.74
   }
   ,  {
    "code": 1,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 161,
-   "molecule": 140,
-   "par": 86.96
+   "molecule": 139,
+   "par": 86.34
   }
   ,  {
    "code": 47,
