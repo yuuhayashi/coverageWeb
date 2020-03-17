@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-03-09",
+ "timestamp": "2020-03-16",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5561,
-   "par": 87.85
+   "molecule": 5562,
+   "par": 87.87
   }
   ,  {
    "code": 1,
@@ -195,8 +195,8 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 600,
-   "molecule": 588,
-   "par": 98.00
+   "molecule": 589,
+   "par": 98.17
   }
   ,  {
    "code": 28,
