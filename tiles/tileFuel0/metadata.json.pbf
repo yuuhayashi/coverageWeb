@@ -3,7 +3,7 @@
     "generator": "tippecanoe v1.32.10", 
     "format": "pbf", 
     "description": "fuel0.mbtiles", 
-    "json": "{\"vector_layers\": [ { \"id\": \"fuel_map0\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"fuel_map0\",\"count\": 15869,\"geometry\": \"Point\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [0],\"min\": 0,\"max\": 0}]}]}}", 
+    "json": "{\"vector_layers\": [ { \"id\": \"fuel_map0\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"fuel_map0\",\"count\": 15864,\"geometry\": \"Point\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 1,\"type\": \"number\",\"values\": [0],\"min\": 0,\"max\": 0}]}]}}", 
     "bounds": "124.150582,24.335964,145.759939,45.521723", 
     "minzoom": "6", 
     "version": "2", 
