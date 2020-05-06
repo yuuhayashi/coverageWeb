@@ -3,7 +3,7 @@
     "generator": "tippecanoe v1.32.10", 
     "format": "pbf", 
     "description": "police4.mbtiles", 
-    "json": "{\"vector_layers\": [ { \"id\": \"police4_map1\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"police4_map1\",\"count\": 5563,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 2,\"type\": \"number\",\"values\": [1,50],\"min\": 1,\"max\": 50},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 
+    "json": "{\"vector_layers\": [ { \"id\": \"police4_map1\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {\"fixed\": \"Number\", \"idref\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"police4_map1\",\"count\": 5564,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"fixed\",\"count\": 2,\"type\": \"number\",\"values\": [1,50],\"min\": 1,\"max\": 50},{\"attribute\": \"idref\",\"count\": 1,\"type\": \"string\",\"values\": [\"\"]}]}]}}", 
     "bounds": "124.146509,24.339349,145.598511,45.397583", 
     "minzoom": "6", 
     "version": "2", 
