@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-05-18",
+ "timestamp": "2020-05-25",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5565,
-   "par": 87.91
+   "molecule": 5566,
+   "par": 87.93
   }
   ,  {
    "code": 1,
@@ -300,8 +300,8 @@
    "code": 42,
    "name": "長崎県",
    "denominator": 78,
-   "molecule": 66,
-   "par": 84.62
+   "molecule": 67,
+   "par": 85.90
   }
   ,  {
    "code": 43,
