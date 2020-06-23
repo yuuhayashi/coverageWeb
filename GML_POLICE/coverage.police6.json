@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-06-08",
+ "timestamp": "2020-06-22",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 99,
-   "par": 63.06
+   "molecule": 98,
+   "par": 62.42
   }
   ,  {
    "code": 1,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 31,
-   "molecule": 31,
-   "par": 100.00
+   "molecule": 30,
+   "par": 96.77
   }
   ,  {
    "code": 14,
