@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-06-22",
+ "timestamp": "2020-06-29",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 10737,
-   "par": 40.51
+   "molecule": 10742,
+   "par": 40.53
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 412,
-   "molecule": 187,
-   "par": 45.39
+   "molecule": 186,
+   "par": 45.15
   }
   ,  {
    "code": 3,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 359,
-   "molecule": 272,
-   "par": 75.77
+   "molecule": 273,
+   "par": 76.04
   }
   ,  {
    "code": 5,
@@ -76,8 +76,8 @@
    "code": 10,
    "name": "群馬県",
    "denominator": 570,
-   "molecule": 201,
-   "par": 35.26
+   "molecule": 202,
+   "par": 35.44
   }
   ,  {
    "code": 11,
@@ -104,8 +104,8 @@
    "code": 14,
    "name": "神奈川県",
    "denominator": 830,
-   "molecule": 820,
-   "par": 98.80
+   "molecule": 819,
+   "par": 98.67
   }
   ,  {
    "code": 15,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 939,
-   "molecule": 727,
-   "par": 77.42
+   "molecule": 730,
+   "par": 77.74
   }
   ,  {
    "code": 23,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 931,
-   "molecule": 373,
-   "par": 40.06
+   "molecule": 374,
+   "par": 40.17
   }
   ,  {
    "code": 29,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 792,
-   "molecule": 182,
-   "par": 22.98
+   "molecule": 183,
+   "par": 23.11
   }
   ,  {
    "code": 41,

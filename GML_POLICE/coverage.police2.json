@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-06-22",
+ "timestamp": "2020-06-29",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1039,
-   "par": 88.43
+   "molecule": 1041,
+   "par": 88.60
   }
   ,  {
    "code": 1,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 24,
-   "molecule": 17,
-   "par": 70.83
+   "molecule": 19,
+   "par": 79.17
   }
   ,  {
    "code": 5,
