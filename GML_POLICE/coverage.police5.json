@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-06-29",
+ "timestamp": "2020-07-06",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5047,
-   "par": 75.16
+   "molecule": 5045,
+   "par": 75.13
   }
   ,  {
    "code": 1,
@@ -62,8 +62,8 @@
    "code": 8,
    "name": "茨城県",
    "denominator": 150,
-   "molecule": 38,
-   "par": 25.33
+   "molecule": 39,
+   "par": 26.00
   }
   ,  {
    "code": 9,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 256,
-   "molecule": 250,
-   "par": 97.66
+   "molecule": 249,
+   "par": 97.27
   }
   ,  {
    "code": 14,
@@ -132,8 +132,8 @@
    "code": 18,
    "name": "福井県",
    "denominator": 96,
-   "molecule": 93,
-   "par": 96.88
+   "molecule": 91,
+   "par": 94.79
   }
   ,  {
    "code": 19,
