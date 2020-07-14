@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-07-06",
+ "timestamp": "2020-07-13",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 56486,
-   "par": 22.17
+   "molecule": 56556,
+   "par": 22.19
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 4555,
-   "molecule": 787,
-   "par": 17.28
+   "molecule": 792,
+   "par": 17.39
   }
   ,  {
    "code": 3,
@@ -41,8 +41,8 @@
    "code": 5,
    "name": "秋田県",
    "denominator": 3642,
-   "molecule": 244,
-   "par": 6.70
+   "molecule": 245,
+   "par": 6.73
   }
   ,  {
    "code": 6,
@@ -62,8 +62,8 @@
    "code": 8,
    "name": "茨城県",
    "denominator": 6815,
-   "molecule": 2861,
-   "par": 41.98
+   "molecule": 2896,
+   "par": 42.49
   }
   ,  {
    "code": 9,
@@ -97,22 +97,22 @@
    "code": 13,
    "name": "東京都",
    "denominator": 9446,
-   "molecule": 6806,
-   "par": 72.05
+   "molecule": 6809,
+   "par": 72.08
   }
   ,  {
    "code": 14,
    "name": "神奈川県",
    "denominator": 8466,
-   "molecule": 6365,
-   "par": 75.18
+   "molecule": 6366,
+   "par": 75.19
   }
   ,  {
    "code": 15,
    "name": "新潟県",
    "denominator": 6495,
-   "molecule": 959,
-   "par": 14.77
+   "molecule": 963,
+   "par": 14.83
   }
   ,  {
    "code": 16,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3685,
-   "par": 44.37
+   "molecule": 3689,
+   "par": 44.41
   }
   ,  {
    "code": 23,
@@ -188,15 +188,15 @@
    "code": 26,
    "name": "京都府",
    "denominator": 4120,
-   "molecule": 1054,
-   "par": 25.58
+   "molecule": 1055,
+   "par": 25.61
   }
   ,  {
    "code": 27,
    "name": "大阪府",
    "denominator": 5844,
-   "molecule": 2639,
-   "par": 45.16
+   "molecule": 2638,
+   "par": 45.14
   }
   ,  {
    "code": 28,
@@ -223,8 +223,8 @@
    "code": 31,
    "name": "鳥取県",
    "denominator": 2963,
-   "molecule": 456,
-   "par": 15.39
+   "molecule": 461,
+   "par": 15.56
   }
   ,  {
    "code": 32,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 7733,
-   "molecule": 776,
-   "par": 10.03
+   "molecule": 786,
+   "par": 10.16
   }
   ,  {
    "code": 41,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 7432,
-   "molecule": 585,
-   "par": 7.87
+   "molecule": 587,
+   "par": 7.90
   }
   ,  {
    "code": 47,
