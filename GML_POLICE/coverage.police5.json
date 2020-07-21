@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-07-13",
+ "timestamp": "2020-07-20",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5047,
-   "par": 75.16
+   "molecule": 5048,
+   "par": 75.17
   }
   ,  {
    "code": 1,
@@ -62,8 +62,8 @@
    "code": 8,
    "name": "茨城県",
    "denominator": 150,
-   "molecule": 39,
-   "par": 26.00
+   "molecule": 40,
+   "par": 26.67
   }
   ,  {
    "code": 9,
