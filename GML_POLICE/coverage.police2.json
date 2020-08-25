@@ -1,20 +1,20 @@
 {
- "timestamp": "2020-08-04",
+ "timestamp": "2020-08-24",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1042,
-   "par": 88.68
+   "molecule": 1043,
+   "par": 88.77
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 69,
-   "molecule": 38,
-   "par": 55.07
+   "molecule": 39,
+   "par": 56.52
   }
   ,  {
    "code": 2,
@@ -34,15 +34,15 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 24,
-   "molecule": 19,
-   "par": 79.17
+   "molecule": 18,
+   "par": 75.00
   }
   ,  {
    "code": 5,
    "name": "秋田県",
    "denominator": 15,
-   "molecule": 13,
-   "par": 86.67
+   "molecule": 14,
+   "par": 93.33
   }
   ,  {
    "code": 6,
