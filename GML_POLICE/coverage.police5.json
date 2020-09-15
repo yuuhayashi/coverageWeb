@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-09-09",
+ "timestamp": "2020-09-14",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5061,
-   "par": 75.37
+   "molecule": 5060,
+   "par": 75.35
   }
   ,  {
    "code": 1,
@@ -209,8 +209,8 @@
    "code": 29,
    "name": "奈良県",
    "denominator": 110,
-   "molecule": 105,
-   "par": 95.45
+   "molecule": 104,
+   "par": 94.55
   }
   ,  {
    "code": 30,

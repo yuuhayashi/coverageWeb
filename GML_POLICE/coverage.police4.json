@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-09-09",
+ "timestamp": "2020-09-14",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5575,
-   "par": 88.07
+   "molecule": 5574,
+   "par": 88.06
   }
   ,  {
    "code": 1,
@@ -153,8 +153,8 @@
    "code": 21,
    "name": "岐阜県",
    "denominator": 96,
-   "molecule": 76,
-   "par": 79.17
+   "molecule": 75,
+   "par": 78.12
   }
   ,  {
    "code": 22,
