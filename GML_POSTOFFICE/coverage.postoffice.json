@@ -1,5 +1,5 @@
 {
- "timestamp": "2020-10-12",
+ "timestamp": "2020-10-19",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 603,
-   "molecule": 576,
-   "par": 95.52
+   "molecule": 577,
+   "par": 95.69
   }
   ,  {
    "code": 23,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 965,
-   "molecule": 949,
-   "par": 98.34
+   "molecule": 948,
+   "par": 98.24
   }
   ,  {
    "code": 29,
