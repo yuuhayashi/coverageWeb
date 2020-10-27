@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-10-19",
+ "timestamp": "2020-10-26",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）2:警察署",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 1175,
-   "molecule": 1045,
-   "par": 88.94
+   "molecule": 1044,
+   "par": 88.85
   }
   ,  {
    "code": 1,
@@ -97,8 +97,8 @@
    "code": 13,
    "name": "東京都",
    "denominator": 102,
-   "molecule": 100,
-   "par": 98.04
+   "molecule": 99,
+   "par": 97.06
   }
   ,  {
    "code": 14,
