@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-11-03",
+ "timestamp": "2020-11-09",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5067,
-   "par": 75.46
+   "molecule": 5065,
+   "par": 75.43
   }
   ,  {
    "code": 1,
@@ -286,8 +286,8 @@
    "code": 40,
    "name": "福岡県",
    "denominator": 107,
-   "molecule": 104,
-   "par": 97.20
+   "molecule": 103,
+   "par": 96.26
   }
   ,  {
    "code": 41,
@@ -321,8 +321,8 @@
    "code": 45,
    "name": "宮崎県",
    "denominator": 109,
-   "molecule": 107,
-   "par": 98.17
+   "molecule": 106,
+   "par": 97.25
   }
   ,  {
    "code": 46,

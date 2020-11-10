@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-11-03",
+ "timestamp": "2020-11-09",
  "sourcedata": "国土数値情報　バス停留所データ 平成２２年",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 254842,
-   "molecule": 59508,
-   "par": 23.35
+   "molecule": 59693,
+   "par": 23.42
   }
   ,  {
    "code": 1,
@@ -20,8 +20,8 @@
    "code": 2,
    "name": "青森県",
    "denominator": 4555,
-   "molecule": 1000,
-   "par": 21.95
+   "molecule": 1017,
+   "par": 22.33
   }
   ,  {
    "code": 3,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 5501,
-   "molecule": 1187,
-   "par": 21.58
+   "molecule": 1206,
+   "par": 21.92
   }
   ,  {
    "code": 5,
@@ -83,8 +83,8 @@
    "code": 11,
    "name": "埼玉県",
    "denominator": 9097,
-   "molecule": 2745,
-   "par": 30.17
+   "molecule": 2827,
+   "par": 31.08
   }
   ,  {
    "code": 12,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 8821,
-   "molecule": 639,
-   "par": 7.24
+   "molecule": 643,
+   "par": 7.29
   }
   ,  {
    "code": 21,
@@ -160,8 +160,8 @@
    "code": 22,
    "name": "静岡県",
    "denominator": 8306,
-   "molecule": 3826,
-   "par": 46.06
+   "molecule": 3836,
+   "par": 46.18
   }
   ,  {
    "code": 23,
@@ -188,22 +188,22 @@
    "code": 26,
    "name": "京都府",
    "denominator": 4120,
-   "molecule": 1068,
-   "par": 25.92
+   "molecule": 1073,
+   "par": 26.04
   }
   ,  {
    "code": 27,
    "name": "大阪府",
    "denominator": 5844,
-   "molecule": 2826,
-   "par": 48.36
+   "molecule": 2849,
+   "par": 48.75
   }
   ,  {
    "code": 28,
    "name": "兵庫県",
    "denominator": 8863,
-   "molecule": 3407,
-   "par": 38.44
+   "molecule": 3408,
+   "par": 38.45
   }
   ,  {
    "code": 29,
@@ -223,8 +223,8 @@
    "code": 31,
    "name": "鳥取県",
    "denominator": 2963,
-   "molecule": 489,
-   "par": 16.50
+   "molecule": 511,
+   "par": 17.25
   }
   ,  {
    "code": 32,
@@ -293,8 +293,8 @@
    "code": 41,
    "name": "佐賀県",
    "denominator": 2855,
-   "molecule": 112,
-   "par": 3.92
+   "molecule": 114,
+   "par": 3.99
   }
   ,  {
    "code": 42,

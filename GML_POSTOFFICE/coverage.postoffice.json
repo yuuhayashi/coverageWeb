@@ -1,20 +1,20 @@
 {
- "timestamp": "2020-11-03",
+ "timestamp": "2020-11-09",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20420,
-   "par": 83.26
+   "molecule": 20424,
+   "par": 83.27
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 1515,
-   "molecule": 744,
-   "par": 49.11
+   "molecule": 748,
+   "par": 49.37
   }
   ,  {
    "code": 2,
