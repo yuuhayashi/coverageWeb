@@ -1,20 +1,20 @@
 {
- "timestamp": "2020-11-23",
+ "timestamp": "2020-12-07",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5072,
-   "par": 75.53
+   "molecule": 5074,
+   "par": 75.56
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 428,
-   "molecule": 132,
-   "par": 30.84
+   "molecule": 133,
+   "par": 31.07
   }
   ,  {
    "code": 2,
@@ -41,8 +41,8 @@
    "code": 5,
    "name": "秋田県",
    "denominator": 100,
-   "molecule": 26,
-   "par": 26.00
+   "molecule": 28,
+   "par": 28.00
   }
   ,  {
    "code": 6,
@@ -237,8 +237,8 @@
    "code": 33,
    "name": "岡山県",
    "denominator": 193,
-   "molecule": 181,
-   "par": 93.78
+   "molecule": 182,
+   "par": 94.30
   }
   ,  {
    "code": 34,
@@ -251,8 +251,8 @@
    "code": 35,
    "name": "山口県",
    "denominator": 168,
-   "molecule": 161,
-   "par": 95.83
+   "molecule": 160,
+   "par": 95.24
   }
   ,  {
    "code": 36,
@@ -328,8 +328,8 @@
    "code": 46,
    "name": "鹿児島県",
    "denominator": 161,
-   "molecule": 138,
-   "par": 85.71
+   "molecule": 137,
+   "par": 85.09
   }
   ,  {
    "code": 47,
