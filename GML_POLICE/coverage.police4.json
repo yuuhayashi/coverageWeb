@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-12-07",
+ "timestamp": "2020-12-13",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）4:交番",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6330,
-   "molecule": 5586,
-   "par": 88.25
+   "molecule": 5588,
+   "par": 88.28
   }
   ,  {
    "code": 1,
@@ -125,8 +125,8 @@
    "code": 17,
    "name": "石川県",
    "denominator": 71,
-   "molecule": 66,
-   "par": 92.96
+   "molecule": 67,
+   "par": 94.37
   }
   ,  {
    "code": 18,
@@ -188,8 +188,8 @@
    "code": 26,
    "name": "京都府",
    "denominator": 191,
-   "molecule": 176,
-   "par": 92.15
+   "molecule": 177,
+   "par": 92.67
   }
   ,  {
    "code": 27,
