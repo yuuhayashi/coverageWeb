@@ -1,13 +1,13 @@
 {
- "timestamp": "2020-12-13",
+ "timestamp": "2020-12-21",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 6715,
-   "molecule": 5075,
-   "par": 75.58
+   "molecule": 5076,
+   "par": 75.59
   }
   ,  {
    "code": 1,
@@ -41,8 +41,8 @@
    "code": 5,
    "name": "秋田県",
    "denominator": 100,
-   "molecule": 28,
-   "par": 28.00
+   "molecule": 29,
+   "par": 29.00
   }
   ,  {
    "code": 6,
