@@ -1,5 +1,5 @@
 {
- "timestamp": "2020-12-21",
+ "timestamp": "2021-01-04",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）5:駐在所",
  "coverage": [
   {
@@ -27,8 +27,8 @@
    "code": 3,
    "name": "岩手県",
    "denominator": 150,
-   "molecule": 23,
-   "par": 15.33
+   "molecule": 24,
+   "par": 16.00
   }
   ,  {
    "code": 4,
@@ -188,8 +188,8 @@
    "code": 26,
    "name": "京都府",
    "denominator": 97,
-   "molecule": 96,
-   "par": 98.97
+   "molecule": 95,
+   "par": 97.94
   }
   ,  {
    "code": 27,

@@ -1,20 +1,20 @@
 {
- "timestamp": "2020-12-21",
+ "timestamp": "2021-01-04",
  "sourcedata": "国土数値情報　燃料給油所データ 平成２８年(2016)",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 26503,
-   "molecule": 10991,
-   "par": 41.47
+   "molecule": 11009,
+   "par": 41.54
   }
   ,  {
    "code": 1,
    "name": "北海道",
    "denominator": 1643,
-   "molecule": 732,
-   "par": 44.55
+   "molecule": 733,
+   "par": 44.61
   }
   ,  {
    "code": 2,
@@ -34,8 +34,8 @@
    "code": 4,
    "name": "宮城県",
    "denominator": 359,
-   "molecule": 281,
-   "par": 78.27
+   "molecule": 284,
+   "par": 79.11
   }
   ,  {
    "code": 5,
@@ -69,8 +69,8 @@
    "code": 9,
    "name": "栃木県",
    "denominator": 560,
-   "molecule": 193,
-   "par": 34.46
+   "molecule": 194,
+   "par": 34.64
   }
   ,  {
    "code": 10,
@@ -90,8 +90,8 @@
    "code": 12,
    "name": "千葉県",
    "denominator": 987,
-   "molecule": 393,
-   "par": 39.82
+   "molecule": 394,
+   "par": 39.92
   }
   ,  {
    "code": 13,
@@ -125,8 +125,8 @@
    "code": 17,
    "name": "石川県",
    "denominator": 309,
-   "molecule": 94,
-   "par": 30.42
+   "molecule": 95,
+   "par": 30.74
   }
   ,  {
    "code": 18,
@@ -139,8 +139,8 @@
    "code": 19,
    "name": "山梨県",
    "denominator": 324,
-   "molecule": 206,
-   "par": 63.58
+   "molecule": 210,
+   "par": 64.81
   }
   ,  {
    "code": 20,
@@ -167,8 +167,8 @@
    "code": 23,
    "name": "愛知県",
    "denominator": 1334,
-   "molecule": 582,
-   "par": 43.63
+   "molecule": 583,
+   "par": 43.70
   }
   ,  {
    "code": 24,
@@ -195,15 +195,15 @@
    "code": 27,
    "name": "大阪府",
    "denominator": 867,
-   "molecule": 531,
-   "par": 61.25
+   "molecule": 532,
+   "par": 61.36
   }
   ,  {
    "code": 28,
    "name": "兵庫県",
    "denominator": 931,
-   "molecule": 392,
-   "par": 42.11
+   "molecule": 393,
+   "par": 42.21
   }
   ,  {
    "code": 29,
@@ -272,8 +272,8 @@
    "code": 38,
    "name": "愛媛県",
    "denominator": 494,
-   "molecule": 111,
-   "par": 22.47
+   "molecule": 115,
+   "par": 23.28
   }
   ,  {
    "code": 39,
