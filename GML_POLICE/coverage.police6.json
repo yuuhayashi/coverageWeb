@@ -1,13 +1,13 @@
 {
- "timestamp": "2021-01-04",
+ "timestamp": "2021-01-18",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 99,
-   "par": 63.06
+   "molecule": 100,
+   "par": 63.69
   }
   ,  {
    "code": 1,
@@ -272,8 +272,8 @@
    "code": 38,
    "name": "愛媛県",
    "denominator": 2,
-   "molecule": 0,
-   "par": 0.00
+   "molecule": 1,
+   "par": 50.00
   }
   ,  {
    "code": 39,

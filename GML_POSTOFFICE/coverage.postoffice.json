@@ -1,13 +1,13 @@
 {
- "timestamp": "2021-01-04",
+ "timestamp": "2021-01-18",
  "sourcedata": "国土数値情報 郵便局データ（平成25年）",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 24526,
-   "molecule": 20487,
-   "par": 83.53
+   "molecule": 20505,
+   "par": 83.61
   }
   ,  {
    "code": 1,
@@ -27,22 +27,22 @@
    "code": 3,
    "name": "岩手県",
    "denominator": 433,
-   "molecule": 119,
-   "par": 27.48
+   "molecule": 127,
+   "par": 29.33
   }
   ,  {
    "code": 4,
    "name": "宮城県",
    "denominator": 456,
-   "molecule": 353,
-   "par": 77.41
+   "molecule": 355,
+   "par": 77.85
   }
   ,  {
    "code": 5,
    "name": "秋田県",
    "denominator": 401,
-   "molecule": 172,
-   "par": 42.89
+   "molecule": 175,
+   "par": 43.64
   }
   ,  {
    "code": 6,
@@ -55,8 +55,8 @@
    "code": 7,
    "name": "福島県",
    "denominator": 548,
-   "molecule": 136,
-   "par": 24.82
+   "molecule": 140,
+   "par": 25.55
   }
   ,  {
    "code": 8,
@@ -146,8 +146,8 @@
    "code": 20,
    "name": "長野県",
    "denominator": 660,
-   "molecule": 161,
-   "par": 24.39
+   "molecule": 162,
+   "par": 24.55
   }
   ,  {
    "code": 21,
