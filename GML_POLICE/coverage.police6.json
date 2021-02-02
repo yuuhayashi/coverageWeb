@@ -1,13 +1,13 @@
 {
- "timestamp": "2021-01-18",
+ "timestamp": "2021-02-01",
  "sourcedata": "国土数値情報 警察署データ（平成24年:2012）6:派出所",
  "coverage": [
   {
    "code": 0,
    "name": "全国",
    "denominator": 157,
-   "molecule": 100,
-   "par": 63.69
+   "molecule": 101,
+   "par": 64.33
   }
   ,  {
    "code": 1,
@@ -202,8 +202,8 @@
    "code": 28,
    "name": "兵庫県",
    "denominator": 14,
-   "molecule": 5,
-   "par": 35.71
+   "molecule": 6,
+   "par": 42.86
   }
   ,  {
    "code": 29,
