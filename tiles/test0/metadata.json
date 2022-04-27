@@ -1,0 +1,13 @@
+{
+    "name": "test0.mbtiles", 
+    "generator": "tippecanoe v1.32.10", 
+    "format": "pbf", 
+    "description": "test0.mbtiles", 
+    "json": "{\"vector_layers\": [ { \"id\": \"test0\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"test0\",\"count\": 3,\"geometry\": \"Point\",\"attributeCount\": 0,\"attributes\": []}]}}", 
+    "bounds": "-180.0,-85.051129,180.0,85.051129", 
+    "minzoom": "6", 
+    "version": "2", 
+    "maxzoom": "16", 
+    "type": "overlay", 
+    "center": "138.732605,35.359936,16"
+}
