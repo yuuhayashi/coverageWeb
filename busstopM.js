@@ -71,7 +71,7 @@ const mvtSource1 = new ol.layer.VectorTile({
 const mvtSource2 = new ol.layer.VectorTile({
     source: new ol.source.VectorTile({
         format: new ol.format.MVT(),
-        url: "https://yuuhayashi.github.io/coverageWeb/tiles/tileBus2/{z}/{x}/{y}.pbf"
+        url: "https://yuuhayashi.github.io/coverageWeb/tiles/test0/{z}/{x}/{y}.pbf"
     }),
     title: "Fuel 2: 完了",
     visible: true,
