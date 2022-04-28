@@ -1,13 +1,14 @@
 {
-    "name": "test0.mbtiles", 
-    "generator": "tippecanoe v1.32.10", 
-    "format": "pbf", 
-    "description": "test0.mbtiles", 
-    "json": "{\"vector_layers\": [ { \"id\": \"test0\", \"description\": \"\", \"minzoom\": 6, \"maxzoom\": 16, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"test0\",\"count\": 3,\"geometry\": \"Point\",\"attributeCount\": 0,\"attributes\": []}]}}", 
-    "bounds": "-180.0,-85.051129,180.0,85.051129", 
-    "minzoom": "6", 
-    "version": "2", 
-    "maxzoom": "16", 
-    "type": "overlay", 
-    "center": "138.732605,35.359936,16"
+"name": "test0",
+"description": "test0",
+"version": "2",
+"minzoom": "5",
+"maxzoom": "16",
+"center": "138.732605,35.359936,16",
+"bounds": "138.730900,35.198300,139.024800,35.362800",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.35.0",
+"generator_options": "tippecanoe --no-tile-compression -z16 -Z5 -e test0 -l test0 -ai test.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"test0\", \"description\": \"\", \"minzoom\": 5, \"maxzoom\": 16, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"test0\",\"count\": 3,\"geometry\": \"Point\",\"attributeCount\": 0,\"attributes\": []}]}}"
 }
